@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto">
         <div className="bg-white/10 backdrop-blur-lg rounded-full p-12 md:p-16 border border-white/20 shadow-2xl">
           {/* Add a subtle inner glow */}
-          <div className="absolute inset-0 bg-white/5 rounded-full blur-xl w-full h-full"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/5 rounded-full blur-xl w-96 h-96"></div>
           <div className="relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Help Your Toddler
