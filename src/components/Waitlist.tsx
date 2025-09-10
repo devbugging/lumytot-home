@@ -39,7 +39,7 @@ const Waitlist = () => {
           </div>
           
           {/* Right side - Waitlist form */}
-          <div className="order-1 lg:order-2 space-y-6 bg-waitlist-bg p-8 lg:p-12 h-full flex flex-col justify-center rounded-2xl">
+          <div className="order-1 lg:order-2 space-y-6 bg-waitlist-bg p-8 lg:p-12 h-full flex flex-col justify-center rounded-r-2xl">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Join the waiting list now
             </h2>
