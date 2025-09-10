@@ -12,7 +12,7 @@ const SmartSolutions = () => {
           <p className="text-lg text-custom max-w-3xl mx-auto">Designed by parents for parents, Lumytot helps establish healthy sleep routines for your little ones.</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto lg:pl-0">
+        <div className="grid md:grid-cols-3 gap-12 items-start lg:grid-cols-[1fr_1fr_1fr] lg:max-w-none lg:mx-0">
           {/* Sun/Moon Light Indicator */}
           <div className="relative">
             <div className="w-full max-w-sm h-[28rem] mx-auto bg-warm-cream bg-opacity-25 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
