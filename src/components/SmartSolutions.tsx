@@ -22,8 +22,8 @@ const SmartSolutions = () => {
             <div className="w-80 h-96 mx-auto bg-warm-cream rounded-t-full flex flex-col items-center justify-between overflow-hidden">
               <div className="w-full h-48 rounded-t-full overflow-hidden bg-white">
                 <img 
-                  src="/lovable-uploads/ac7f8321-ad8e-481a-9f6f-a3ca0cc71a05.png"
-                  alt="Child interacting with Lumytot sun/moon indicator"
+                  src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png"
+                  alt="Mother and child enjoying Lumytot together"
                   className="w-full h-full object-cover"
                 />
               </div>
