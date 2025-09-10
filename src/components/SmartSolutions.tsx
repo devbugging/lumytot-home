@@ -16,10 +16,10 @@ const SmartSolutions = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Sun/Moon Light Indicator */}
           <div className="relative">
-            <div className="w-80 h-[24rem] mx-auto bg-warm-cream rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-full max-w-md h-[24rem] mx-auto bg-warm-cream rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-60 rounded-t-full overflow-hidden bg-white">
                 <img 
                   src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png"
@@ -40,7 +40,7 @@ const SmartSolutions = () => {
 
           {/* Sleep Tips and Reminders */}
           <div className="relative">
-            <div className="w-80 h-[24rem] mx-auto bg-gradient-to-br from-purple-100 to-blue-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-full max-w-md h-[24rem] mx-auto bg-gradient-to-br from-purple-100 to-blue-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-60 rounded-t-full overflow-hidden bg-white">
                 <img 
                   src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png"
@@ -61,7 +61,7 @@ const SmartSolutions = () => {
 
           {/* Timers and Lights */}
           <div className="relative">
-            <div className="w-80 h-[24rem] mx-auto bg-gradient-to-br from-orange-100 to-amber-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-full max-w-md h-[24rem] mx-auto bg-gradient-to-br from-orange-100 to-amber-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-60 rounded-t-full overflow-hidden bg-white">
                 <img 
                   src="/lovable-uploads/b6f4deeb-14c8-448d-9c4b-d198d5cd8fa4.png"
@@ -82,7 +82,7 @@ const SmartSolutions = () => {
 
           {/* Smart Monitoring */}
           <div className="relative">
-            <div className="w-80 h-[24rem] mx-auto bg-gradient-to-br from-green-100 to-teal-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-full max-w-md h-[24rem] mx-auto bg-gradient-to-br from-green-100 to-teal-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-60 rounded-t-full overflow-hidden bg-white">
                 <img 
                   src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png"
