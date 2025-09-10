@@ -3,7 +3,7 @@ const SmartSolutions = () => {
   return <section className="py-20 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
-          <div className="text-sm text-muted-foreground mb-4 tracking-wider uppercase">
+          <div className="text-sm text-custom mb-4 tracking-wider uppercase">
             LUMYTOT
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
