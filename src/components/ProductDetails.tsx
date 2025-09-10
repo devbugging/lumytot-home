@@ -56,14 +56,6 @@ const ProductDetails = () => {
                   ))}
                 </div>
               </div>
-              
-              <div className="bg-gradient-card rounded-xl p-6 border border-border/50">
-                <h3 className="font-semibold text-foreground mb-3">Safety & Certifications</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Lumytot meets all safety standards for children's products. CE marked, FCC approved, 
-                  and tested by independent labs. Made with non-toxic, hypoallergenic materials safe for children 12+ months.
-                </p>
-              </div>
             </div>
           </div>
         </div>
