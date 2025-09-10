@@ -5,9 +5,14 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 md:px-8 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">L</span>
+        <div className="flex items-center space-x-2 relative">
+          <div className="relative">
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#7562A4] text-white px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap">
+              NAPS. NIGHTS. SOLVED.
+            </div>
+            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-lg">L</span>
+            </div>
           </div>
           <span className="text-xl font-bold text-foreground">Lumytot</span>
         </div>
