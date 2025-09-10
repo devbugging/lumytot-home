@@ -1,5 +1,5 @@
 import React from 'react';
-import deviceImage from '@/assets/lumytot-device.jpg';
+// import deviceImage from '@/assets/lumytot-device.jpg';
 
 const ProductShowcase = () => {
   const features = [
@@ -53,8 +53,8 @@ const ProductShowcase = () => {
             <div className="relative">
               <div className="bg-gradient-card rounded-2xl p-8 shadow-glow border border-border/50">
                 <img 
-                  src={deviceImage} 
-                  alt="Lumytot device showcasing elegant design"
+                  src="/lovable-uploads/fa28c1bc-2dd9-4bf0-84d4-72ae03d9fe87.png" 
+                  alt="Lumytot sleep device on bedside table with peacefully sleeping child"
                   className="w-full h-auto rounded-xl"
                 />
                 
