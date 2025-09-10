@@ -31,7 +31,7 @@ const ProductDetails = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-3">✨ Dimensions & Materials</h3>
                 <div className="space-y-2">
-                  <p className="text-muted-foreground text-sm">
+                  <p className="text-muted-foreground text-sm mb-6">
                     Just the right size: 5" × 5" × 4" of pure cuteness. Made from BPA-free, toddler-safe materials with a silky soft-touch finish — because style should always come with safety.
                   </p>
                 </div>
