@@ -28,7 +28,7 @@ const Waitlist = () => {
   return (
     <section className="py-20">
       <div className="container mx-auto px-6 md:px-8">
-        <div className="grid lg:grid-cols-2 gap-0 items-center">
+        <div className="grid lg:grid-cols-2 gap-0 items-center border border-border rounded-2xl overflow-hidden">
           {/* Left side - Family image */}
           <div className="order-2 lg:order-1">
             <img 
