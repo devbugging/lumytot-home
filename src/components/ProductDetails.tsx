@@ -35,6 +35,10 @@ const ProductDetails = () => {
                     Just the right size: 5" × 5" × 4" of pure cuteness. Made from BPA-free, toddler-safe materials with a silky soft-touch finish — because style should always come with safety.
                   </p>
                 </div>
+                
+                <div>
+                  <h3 className="font-semibold text-foreground mb-3">🌈 Light Brightness Levels</h3>
+                </div>
               </div>
             </div>
           </div>
