@@ -2,40 +2,33 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
-
 const Waitlist = () => {
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const { toast } = useToast();
-
+  const {
+    toast
+  } = useToast();
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    
     setIsLoading(true);
-    
+
     // Simulate API call
     setTimeout(() => {
       setIsLoading(false);
       setEmail('');
       toast({
         title: "You're on the list! 🎉",
-        description: "We'll notify you when Lumytot is available. Welcome to the family!",
+        description: "We'll notify you when Lumytot is available. Welcome to the family!"
       });
     }, 1000);
   };
-
-  return (
-    <section className="py-20">
+  return <section className="py-20">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-0 items-center border border-border rounded-2xl overflow-hidden">
           {/* Left side - Family image */}
           <div className="order-2 lg:order-1">
-            <img 
-              src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png" 
-              alt="Happy family with toddler using Lumytot device"
-              className="w-full h-auto rounded-l-2xl"
-            />
+            <img src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png" alt="Happy family with toddler using Lumytot device" className="w-full h-auto rounded-l-2xl" />
           </div>
           
           {/* Right side - Waitlist form */}
@@ -45,33 +38,15 @@ const Waitlist = () => {
             </h2>
             
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
-              <Input
-                type="email"
-                placeholder="Enter your email address"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 h-12 px-4 bg-background border-border/50 focus:border-primary transition-colors"
-                required
-              />
-              <Button 
-                type="submit" 
-                variant="warm" 
-                size="lg"
-                disabled={isLoading}
-                className="h-12 px-8 whitespace-nowrap"
-                style={{backgroundColor: '#7562A4'}}
-              >
+              <Input type="email" placeholder="Enter your email address" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 h-12 px-4 bg-background border-border/50 focus:border-primary transition-colors" required />
+              <Button type="submit" variant="warm" size="lg" disabled={isLoading} className="h-12 px-8 whitespace-nowrap" style={{
+              backgroundColor: '#7562A4'
+            }}>
                 {isLoading ? 'Joining...' : 'Join Waitlist'}
               </Button>
             </form>
             
-            <p className="text-custom leading-relaxed">
-              Be the first to know! We're putting the final touches on 
-              Lumytot — a smarter, gentler sleep trainer for toddlers. 
-              Sign up to be the first to hear when Lumytot is ready. 
-              Perfect for parents looking to build better sleep routines 
-              — effortlessly.
-            </p>
+            <p className="text-custom leading-relaxed">Be the first to know! We're putting the final touches on Lumytot, a smarter, gentler sleep trainer for toddlers. Sign up to be the first to hear when Lumytot is ready. Perfect for parents looking to build better sleep routines, effortlessly.</p>
             
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <span>👶</span>
@@ -80,8 +55,6 @@ const Waitlist = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Waitlist;
