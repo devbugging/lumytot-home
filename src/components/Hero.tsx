@@ -25,8 +25,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto leading-relaxed">
-            Give your child the gift of better sleep with our smart nightlight. 
-            Designed by sleep experts to create the perfect bedtime environment.
+            The world's first nap-friendly sleep trainer. Lumytot makes nights restful and naps effortless, bringing peace to the whole family.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
