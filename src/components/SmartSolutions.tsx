@@ -1,8 +1,6 @@
 import React from 'react';
-
 const SmartSolutions = () => {
-  return (
-    <section className="py-20 bg-background">
+  return <section className="py-20 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
           <div className="text-sm text-muted-foreground mb-4 tracking-wider uppercase">
@@ -11,9 +9,7 @@ const SmartSolutions = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Smart Sleep Solutions for Growing Children
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Designed by parents for parents, Lumytot helps establish healthy sleep routines for your little ones.
-          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">Designed by parents for parents, Lumytot helps establish healthy sleep routines for your little ones.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -21,11 +17,7 @@ const SmartSolutions = () => {
           <div className="relative">
             <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-50 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
-                <img 
-                  src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png"
-                  alt="Mother and child enjoying Lumytot together"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png" alt="Mother and child enjoying Lumytot together" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
@@ -42,11 +34,7 @@ const SmartSolutions = () => {
           <div className="relative">
             <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-50 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
-                <img 
-                  src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png"
-                  alt="Lumytot app showing sleep tips and reminders"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png" alt="Lumytot app showing sleep tips and reminders" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
@@ -63,11 +51,7 @@ const SmartSolutions = () => {
           <div className="relative">
             <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-50 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
-                <img 
-                  src="/lovable-uploads/a42d9a15-1ab1-4526-8448-95b422237804.png"
-                  alt="Hands holding phone with Lumytot timer and schedule interface"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/lovable-uploads/a42d9a15-1ab1-4526-8448-95b422237804.png" alt="Hands holding phone with Lumytot timer and schedule interface" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
@@ -81,8 +65,6 @@ const SmartSolutions = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default SmartSolutions;
