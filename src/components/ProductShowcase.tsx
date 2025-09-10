@@ -1,5 +1,5 @@
 import React from 'react';
-import deviceImage from '@/assets/lumynt-device.jpg';
+import deviceImage from '@/assets/lumytot-device.jpg';
 
 const ProductShowcase = () => {
   const features = [
@@ -26,7 +26,7 @@ const ProductShowcase = () => {
             </h2>
             
             <p className="text-muted-foreground leading-relaxed">
-              Every aspect of Lumynt has been carefully crafted with both children and parents in mind. 
+              Every aspect of Lumytot has been carefully crafted with both children and parents in mind. 
               From our intuitive controls to our scientifically-backed sleep programs, we've created 
               a product that truly makes bedtime easier for the whole family.
             </p>
@@ -43,7 +43,7 @@ const ProductShowcase = () => {
             <div className="pt-6">
               <h3 className="font-semibold text-foreground mb-3">Elegant Design Meets Daily Function</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                We've combined beautiful aesthetics with practical functionality. Lumynt seamlessly integrates 
+                We've combined beautiful aesthetics with practical functionality. Lumytot seamlessly integrates 
                 into any nursery or bedroom while providing the advanced sleep support your child needs.
               </p>
             </div>
@@ -54,7 +54,7 @@ const ProductShowcase = () => {
               <div className="bg-gradient-card rounded-2xl p-8 shadow-glow border border-border/50">
                 <img 
                   src={deviceImage} 
-                  alt="Lumynt device showcasing elegant design"
+                  alt="Lumytot device showcasing elegant design"
                   className="w-full h-auto rounded-xl"
                 />
                 

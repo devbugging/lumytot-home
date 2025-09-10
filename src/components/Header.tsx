@@ -9,12 +9,12 @@ const Header = () => {
           <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">L</span>
           </div>
-          <span className="text-xl font-bold text-foreground">Lumynt</span>
+          <span className="text-xl font-bold text-foreground">Lumytot</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#what-is-lumynt" className="text-muted-foreground hover:text-foreground transition-colors">
-            What is Lumynt
+          <a href="#what-is-lumytot" className="text-muted-foreground hover:text-foreground transition-colors">
+            What is Lumytot
           </a>
           <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
             Features

@@ -16,14 +16,14 @@ const ProductDetails = () => {
           <div className="order-2 lg:order-1">
             <img 
               src={childImage} 
-              alt="Child sleeping peacefully with Lumynt"
+              alt="Child sleeping peacefully with Lumytot"
               className="w-full h-auto rounded-2xl shadow-soft"
             />
           </div>
           
           <div className="order-1 lg:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Details about the Lumynt
+              Details about the Lumytot
             </h2>
             
             <div className="space-y-6">
@@ -43,11 +43,11 @@ const ProductDetails = () => {
                 <h3 className="font-semibold text-foreground mb-3">In the Box</h3>
                 <div className="space-y-2">
                   {[
-                    "1x Lumynt Smart Nightlight",
+                    "1x Lumytot Smart Nightlight",
                     "1x USB-C Charging Cable", 
                     "1x Quick Start Guide",
                     "1x Sleep Tips Booklet",
-                    "Access to Lumynt Mobile App"
+                    "Access to Lumytot Mobile App"
                   ].map((item, index) => (
                     <div key={index} className="flex items-center gap-3">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></div>
@@ -60,7 +60,7 @@ const ProductDetails = () => {
               <div className="bg-gradient-card rounded-xl p-6 border border-border/50">
                 <h3 className="font-semibold text-foreground mb-3">Safety & Certifications</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Lumynt meets all safety standards for children's products. CE marked, FCC approved, 
+                  Lumytot meets all safety standards for children's products. CE marked, FCC approved, 
                   and tested by independent labs. Made with non-toxic, hypoallergenic materials safe for children 12+ months.
                 </p>
               </div>

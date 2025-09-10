@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-warm-orange rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">L</span>
               </div>
-              <span className="text-xl font-bold">Lumynt</span>
+              <span className="text-xl font-bold">Lumytot</span>
             </div>
             <p className="text-warm-cream/80 text-sm leading-relaxed">
               Smart sleep solutions designed to help your little ones get the rest they need for healthy growth and development.
@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="border-t border-warm-cream/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-warm-cream/60 text-sm">
-              © 2024 Lumynt. All rights reserved.
+              © 2024 Lumytot. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-warm-cream/60 hover:text-warm-cream transition-colors text-sm">

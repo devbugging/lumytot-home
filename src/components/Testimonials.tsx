@@ -7,21 +7,21 @@ const Testimonials = () => {
       name: "Sarah M.",
       role: "Mother of 2",
       rating: 5,
-      text: "Lumynt has been a game-changer for our bedtime routine. My 3-year-old now looks forward to sleep time, and we've seen such an improvement in her mood during the day. Highly recommended!",
+      text: "Lumytot has been a game-changer for our bedtime routine. My 3-year-old now looks forward to sleep time, and we've seen such an improvement in her mood during the day. Highly recommended!",
       location: "Portland, OR"
     },
     {
       name: "David R.", 
       role: "Father of 1",
       rating: 5,
-      text: "As a working parent, I was skeptical about another gadget, but Lumynt actually works. My son sleeps through the night now, and the app gives me peace of mind with its sleep tracking.",
+      text: "As a working parent, I was skeptical about another gadget, but Lumytot actually works. My son sleeps through the night now, and the app gives me peace of mind with its sleep tracking.",
       location: "Austin, TX"
     },
     {
       name: "Jennifer L.",
       role: "Mother of 3", 
       rating: 5,
-      text: "I wish I had Lumynt when my older kids were toddlers! The gentle wake-up feature has eliminated those cranky morning meltdowns. It's been worth every penny for our family's well-being.",
+      text: "I wish I had Lumytot when my older kids were toddlers! The gentle wake-up feature has eliminated those cranky morning meltdowns. It's been worth every penny for our family's well-being.",
       location: "Denver, CO"
     }
   ];
@@ -34,7 +34,7 @@ const Testimonials = () => {
             What Parents Say
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Real families sharing their experiences with Lumynt and how it's transformed their sleep routines.
+            Real families sharing their experiences with Lumytot and how it's transformed their sleep routines.
           </p>
         </div>
         

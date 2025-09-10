@@ -20,7 +20,7 @@ const Waitlist = () => {
       setEmail('');
       toast({
         title: "You're on the list! 🎉",
-        description: "We'll notify you when Lumynt is available. Welcome to the family!",
+        description: "We'll notify you when Lumytot is available. Welcome to the family!",
       });
     }, 1000);
   };
@@ -39,7 +39,7 @@ const Waitlist = () => {
             </h2>
             
             <p className="text-muted-foreground leading-relaxed">
-              Be among the first to experience Lumynt and give your child the gift of better sleep. 
+              Be among the first to experience Lumytot and give your child the gift of better sleep. 
               Early supporters receive exclusive benefits and special pricing.
             </p>
             

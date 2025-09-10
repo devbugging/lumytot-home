@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import WhatIsLumynt from '@/components/WhatIsLumynt';
+import WhatIsLumytot from '@/components/WhatIsLumytot';
 import Features from '@/components/Features';
 import Waitlist from '@/components/Waitlist';
 import Benefits from '@/components/Benefits';
@@ -14,7 +14,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <Hero />
-      <WhatIsLumynt />
+      <WhatIsLumytot />
       <Features />
       <Waitlist />
       <Benefits />

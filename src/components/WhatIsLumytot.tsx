@@ -1,39 +1,39 @@
 import React from 'react';
-import deviceImage from '@/assets/lumynt-device.jpg';
+import deviceImage from '@/assets/lumytot-device.jpg';
 
-const WhatIsLumynt = () => {
+const WhatIsLumytot = () => {
   return (
-    <section id="what-is-lumynt" className="py-20 bg-gradient-warm">
+    <section id="what-is-lumytot" className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <img 
               src={deviceImage} 
-              alt="Lumynt smart nightlight device"
+              alt="Lumytot smart nightlight device"
               className="w-full h-auto rounded-2xl shadow-soft"
             />
           </div>
           
           <div className="order-1 lg:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              What is Lumynt?
+              What is Lumytot?
             </h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Lumynt is an innovative smart sleep solution designed specifically for toddlers and young children. 
+                Lumytot is an innovative smart sleep solution designed specifically for toddlers and young children. 
                 Our scientifically-backed nightlight creates the optimal sleep environment through carefully calibrated 
                 light therapy and soothing sounds.
               </p>
               
               <p>
-                Unlike traditional nightlights, Lumynt adapts to your child's natural sleep cycle, gradually dimming 
+                Unlike traditional nightlights, Lumytot adapts to your child's natural sleep cycle, gradually dimming 
                 as bedtime approaches and providing gentle wake-up lighting in the morning. The result? Better sleep 
                 for your little one and more peaceful nights for the whole family.
               </p>
               
               <p>
-                Developed in collaboration with pediatric sleep specialists and child psychologists, Lumynt combines 
+                Developed in collaboration with pediatric sleep specialists and child psychologists, Lumytot combines 
                 cutting-edge technology with beautiful, child-friendly design that fits seamlessly into any nursery 
                 or bedroom.
               </p>
@@ -54,4 +54,4 @@ const WhatIsLumynt = () => {
   );
 };
 
-export default WhatIsLumynt;
+export default WhatIsLumytot;
