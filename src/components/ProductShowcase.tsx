@@ -35,7 +35,7 @@ const ProductShowcase = () => {
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                  <span className="text-muted-foreground text-sm">{feature}</span>
+                  <span className="text-muted-foreground text-base">{feature}</span>
                 </div>
               ))}
             </div>
