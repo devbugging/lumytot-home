@@ -39,14 +39,6 @@ const WhatIsLumytot = () => {
               </p>
             </div>
             
-            <div className="flex items-center gap-4 pt-4">
-              <div className="flex -space-x-2">
-                <div className="w-8 h-8 bg-warm-orange rounded-full border-2 border-background"></div>
-                <div className="w-8 h-8 bg-warm-peach rounded-full border-2 border-background"></div>
-                <div className="w-8 h-8 bg-accent rounded-full border-2 border-background"></div>
-              </div>
-              <span className="text-sm text-muted-foreground">Trusted by 500+ families</span>
-            </div>
           </div>
         </div>
       </div>
