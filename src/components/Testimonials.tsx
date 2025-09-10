@@ -50,8 +50,17 @@ const Testimonials = () => {
                 ))}
               </div>
               
-              <blockquote className="text-muted-foreground text-sm leading-relaxed mb-6">
+              <blockquote 
+                className="text-muted-foreground text-sm leading-relaxed mb-6"
+                style={{ 
+                  color: 'hsl(var(--muted-foreground))',
+                  backgroundColor: 'rgba(255,0,0,0.1)' // Debug background to see the element
+                }}
+              >
                 "{testimonial.text}"
+                <span style={{ fontSize: '10px', color: 'red' }}>
+                  Debug: muted-foreground should be: hsl({getComputedStyle(document.documentElement).getPropertyValue('--muted-foreground')})
+                </span>
               </blockquote>
               
               <div className="flex items-center justify-between">
