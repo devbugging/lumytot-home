@@ -32,7 +32,6 @@ const ProductDetails = () => {
                 <div className="space-y-4">
                   {specifications.map((spec, index) => (
                     <div key={index} className="border-b border-border/30 pb-3 last:border-b-0">
-                      <div className="font-medium text-foreground text-sm mb-1">{spec.label}</div>
                       <div className="text-muted-foreground text-sm">{spec.value}</div>
                     </div>
                   ))}
