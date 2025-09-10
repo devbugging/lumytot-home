@@ -65,7 +65,7 @@ const Waitlist = () => {
               </Button>
             </form>
             
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-custom leading-relaxed">
               Be the first to know! We're putting the final touches on 
               Lumytot — a smarter, gentler sleep trainer for toddlers. 
               Sign up to be the first to hear when Lumytot is ready. 
