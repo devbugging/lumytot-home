@@ -32,7 +32,7 @@ const Waitlist = () => {
           {/* Left side - Family image */}
           <div className="order-2 lg:order-1">
             <img 
-              src="/lovable-uploads/545f0b50-1d10-4062-bc2e-4e3f1cf9d838.png" 
+              src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png" 
               alt="Happy family with toddler using Lumytot device"
               className="w-full h-auto rounded-2xl"
             />
