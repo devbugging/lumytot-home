@@ -3,7 +3,7 @@ import childImage from '@/assets/child-sleeping.jpg';
 
 const ProductDetails = () => {
   const specifications = [
-    { label: "Dimensions & Materials", value: "Compact 4 inch design made from child-safe, BPA-free materials" },
+    { label: "Dimensions & Materials", value: "Just the right size: 5\" × 5\" × 4\" of pure cuteness. Made from BPA-free, toddler-safe materials with a silky soft-touch finish — because style should always come with safety." },
     { label: "Power & Connectivity", value: "USB-C charging with 7-day battery life, WiFi connectivity" },
     { label: "Light Technology", value: "Advanced LED system with circadian rhythm optimization" },
     { label: "Sound Features", value: "Built-in nature sounds, white noise, and lullabies" }
