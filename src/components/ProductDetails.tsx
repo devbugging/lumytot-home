@@ -27,14 +27,6 @@ const ProductDetails = () => {
             </h2>
             
             <div className="space-y-6">
-              <div>
-                <h3 className="font-semibold text-foreground mb-3">✨ Dimensions & Materials</h3>
-                <div className="space-y-4">
-                  {specifications.map((spec, index) => (
-                    <div key={index} className="text-muted-foreground text-sm">{spec.value}</div>
-                  ))}
-                </div>
-              </div>
               
               <div>
                 <h3 className="font-semibold text-foreground mb-3">In the Box</h3>
