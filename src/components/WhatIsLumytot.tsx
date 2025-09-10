@@ -31,9 +31,7 @@ const WhatIsLumytot = () => {
               </p>
               
               <p>
-                Developed in collaboration with pediatric sleep specialists and child psychologists, Lumytot combines 
-                cutting-edge technology with beautiful, child-friendly design that fits seamlessly into any nursery 
-                or bedroom.
+                At the heart of Lumytot is the belief that routines can be magical. We create tools that are intuitive, beautiful, and functional—making bedtime less of a battle and more of a bonding ritual. With kindness, calm, and consistency, Lumytot helps families turn sleepy time into a joyful rhythm.
               </p>
             </div>
             
