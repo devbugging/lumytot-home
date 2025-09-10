@@ -15,8 +15,8 @@ const ProductDetails = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <img 
-              src="/lovable-uploads/6422a9c3-d6a4-4411-a930-92344931a381.png" 
-              alt="Child playing with wooden toys next to Lumytot device"
+              src="/lovable-uploads/fa28c1bc-2dd9-4bf0-84d4-72ae03d9fe87.png" 
+              alt="Lumytot sleep device on bedside table with peacefully sleeping child"
               className="w-full h-auto rounded-2xl shadow-soft"
             />
           </div>
