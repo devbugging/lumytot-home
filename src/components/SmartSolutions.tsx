@@ -23,7 +23,7 @@ const SmartSolutions = () => {
                 <h3 className="text-xl font-bold text-foreground mb-3">
                   Sun/Moon Light Indicator
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed h-16">
                   A gentle dimmable light that keeps the room calm while teaching your child when to sleep and wake.
                 </p>
               </div>
@@ -40,7 +40,7 @@ const SmartSolutions = () => {
                 <h3 className="text-xl font-bold text-foreground mb-3">
                   Sleep Tips and Reminders
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed h-16">
                   Helpful suggestions and wind-down reminders to establish a calming bedtime routine for your child.
                 </p>
               </div>
@@ -57,7 +57,7 @@ const SmartSolutions = () => {
                 <h3 className="text-xl font-bold text-foreground mb-3">
                   Timers and Lights
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed h-16">
                   Easily set day/night and nap times through our intuitive app, creating a consistent schedule for your child.
                 </p>
               </div>
