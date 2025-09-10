@@ -62,24 +62,12 @@ const SmartSolutions = () => {
           {/* Timers and Lights */}
           <div className="relative">
             <div className="w-80 h-96 mx-auto bg-gradient-to-br from-orange-100 to-amber-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden">
-              <div className="w-full h-48 rounded-t-full overflow-hidden bg-white flex items-end justify-center pb-4">
-                <div className="w-40 h-32 bg-slate-800 rounded-2xl flex items-center justify-center shadow-xl">
-                  <div className="text-white text-center p-3">
-                    <div className="w-10 h-5 bg-amber-400 rounded mx-auto mb-2 flex items-center justify-center">
-                      <div className="w-2 h-2 bg-white rounded-full"></div>
-                    </div>
-                    <div className="space-y-1">
-                      <div className="text-xs flex justify-between items-center">
-                        <span>Night</span>
-                        <div className="w-4 h-2 bg-amber-400 rounded-full"></div>
-                      </div>
-                      <div className="text-xs flex justify-between items-center">
-                        <span>Timer</span>
-                        <span>8PM</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="w-full h-48 rounded-t-full overflow-hidden bg-white">
+                <img 
+                  src="/lovable-uploads/b6f4deeb-14c8-448d-9c4b-d198d5cd8fa4.png"
+                  alt="Hands holding phone with Lumytot timer and schedule interface"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
