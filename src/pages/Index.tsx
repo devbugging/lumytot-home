@@ -2,7 +2,6 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import WhatIsLumytot from '@/components/WhatIsLumytot';
 import SmartSolutions from '@/components/SmartSolutions';
-import Features from '@/components/Features';
 import Waitlist from '@/components/Waitlist';
 import Benefits from '@/components/Benefits';
 import ProductShowcase from '@/components/ProductShowcase';
@@ -17,7 +16,6 @@ const Index = () => {
       <Hero />
       <WhatIsLumytot />
       <SmartSolutions />
-      <Features />
       <Waitlist />
       <Benefits />
       <ProductShowcase />
