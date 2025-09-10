@@ -27,9 +27,7 @@ const WhatIsLumytot = () => {
               </p>
               
               <p>
-                Unlike traditional nightlights, Lumytot adapts to your child's natural sleep cycle, gradually dimming 
-                as bedtime approaches and providing gentle wake-up lighting in the morning. The result? Better sleep 
-                for your little one and more peaceful nights for the whole family.
+                Lumytot was born from a simple idea: helping toddlers understand sleep through light, routine, and gentle guidance. Blending playful design with science-backed tools, Lumytot offers calm, clarity, and comfort—for both kids and parents. With soft tones, rounded shapes, and thoughtful cues, every detail is designed to support better rest and brighter mornings.
               </p>
               
               <p>
