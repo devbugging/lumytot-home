@@ -5,7 +5,6 @@ const ProductShowcase = () => {
   const features = [
     "Elegant Design Meets Daily Function",
     "Sleep cycle optimization technology", 
-    "Child-safe materials and construction",
     "Whisper-quiet operation",
     "Easy setup and maintenance"
   ];
