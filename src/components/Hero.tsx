@@ -14,7 +14,7 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto">
-        <div className="bg-white/10 backdrop-blur-lg rounded-full p-12 md:p-16 border border-white/20 shadow-2xl w-96 h-96 flex items-center justify-center">
+        <div className="bg-white/10 backdrop-blur-lg rounded-full p-16 md:p-20 border border-white/20 shadow-2xl w-[600px] h-[600px] flex items-center justify-center">
           {/* Add a subtle inner glow */}
           <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
           <div className="relative z-10">
