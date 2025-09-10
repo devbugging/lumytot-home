@@ -58,7 +58,7 @@ const SmartSolutions = () => {
                   Timers and Lights
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed h-16">
-                  Easily set day/night and nap times through our intuitive app, creating a consistent schedule for your child.
+                  Easily set day/night and nap times through our intuitive app, creating a consistent schedule.
                 </p>
               </div>
             </div>
