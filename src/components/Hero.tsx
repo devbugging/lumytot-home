@@ -14,10 +14,13 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto">
-        <div className="bg-gradient-card/20 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-primary-foreground/10 shadow-glow">
+        <div className="bg-white/10 backdrop-blur-lg rounded-full p-12 md:p-16 border border-white/20 shadow-2xl">
+          {/* Add a subtle inner glow */}
+          <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
+          <div className="relative z-10">
           {/* Night light icon */}
           <div className="flex justify-center mb-6">
-            <div className="w-16 h-16 bg-gradient-card rounded-2xl flex items-center justify-center shadow-glow">
+            <div className="w-16 h-16 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-lg border border-white/30">
               <div className="text-3xl">🌙⭐</div>
             </div>
           </div>
@@ -34,10 +37,10 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+            <Button variant="hero" size="lg" className="text-lg px-8 py-4 bg-white/20 backdrop-blur-md border-white/30 text-white hover:bg-white/30">
               Join the Waiting List
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 text-white hover:bg-white/10 backdrop-blur-md">
               Learn More
             </Button>
           </div>
@@ -46,6 +49,7 @@ const Hero = () => {
             <span className="inline-flex items-center gap-2">
               🔒 Secure Pre-order • 💝 Special Launch Price
             </span>
+          </div>
           </div>
         </div>
       </div>
