@@ -35,9 +35,6 @@ const Hero = () => {
             <Button variant="hero" size="lg" className="text-lg px-8 py-4 bg-white/20 backdrop-blur-md border-white/30 text-white hover:bg-white/30">
               Join the Waiting List
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 text-white hover:bg-white/10 backdrop-blur-md">
-              Learn More
-            </Button>
           </div>
           
           <div className="mt-8 text-sm opacity-75">
