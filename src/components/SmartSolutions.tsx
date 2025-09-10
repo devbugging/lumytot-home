@@ -9,7 +9,7 @@ const SmartSolutions = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Smart Sleep Solutions for Growing Children
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">Designed by parents for parents, Lumytot helps establish healthy sleep routines for your little ones.</p>
+          <p className="text-lg text-custom max-w-3xl mx-auto">Designed by parents for parents, Lumytot helps establish healthy sleep routines for your little ones.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
