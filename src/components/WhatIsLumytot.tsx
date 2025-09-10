@@ -8,8 +8,8 @@ const WhatIsLumytot = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <img 
-              src={deviceImage} 
-              alt="Lumytot smart nightlight device"
+              src="/lovable-uploads/f696386d-f583-48db-ad2a-c9022393e240.png" 
+              alt="Child sleeping peacefully with Lumytot nightlight on bedside table"
               className="w-full h-auto rounded-2xl shadow-soft"
             />
           </div>
