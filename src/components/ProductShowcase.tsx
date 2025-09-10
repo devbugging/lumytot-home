@@ -25,7 +25,7 @@ const ProductShowcase = () => {
               <span className="text-primary">Designed for Real Life.</span>
             </h2>
             
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-custom leading-relaxed">
               Every aspect of Lumytot has been carefully crafted with both children and parents in mind. 
               From our intuitive controls to our scientifically-backed sleep programs, we've created 
               a product that truly makes bedtime easier for the whole family.
