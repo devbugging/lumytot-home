@@ -55,6 +55,7 @@ export default {
           peach: "hsl(var(--soft-peach))",
         },
         "text-custom": "hsl(var(--text-custom))",
+        "waitlist-bg": "hsl(var(--waitlist-bg))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

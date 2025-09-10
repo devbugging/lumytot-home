@@ -36,6 +36,7 @@ All colors MUST be HSL.
     --soft-peach: 28 75% 85%;
     --gentle-brown: 25 25% 35%;
     --text-custom: 0 0% 24%;
+    --waitlist-bg: 282 30% 93%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 35 50% 98%;
@@ -106,6 +107,7 @@ All colors MUST be HSL.
     --soft-peach: 28 60% 75%;
     --gentle-brown: 35 50% 85%;
     --text-custom: 0 0% 24%;
+    --waitlist-bg: 282 30% 93%;
 
     --destructive: 0 75% 55%;
     --destructive-foreground: 35 50% 95%;
