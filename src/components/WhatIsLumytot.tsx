@@ -16,7 +16,7 @@ const WhatIsLumytot = () => {
           
           <div className="order-1 lg:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Innovative smart sleep solution designed specifically for toddlers and young children
+              Innovative smart sleep solution for toddlers and young children
             </h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
