@@ -26,7 +26,7 @@ const Waitlist = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-warm">
+    <section className="py-20 bg-gradient-warm rounded-2xl mx-6 md:mx-8">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-0 items-center">
           {/* Left side - Family image */}
