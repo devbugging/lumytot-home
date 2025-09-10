@@ -38,6 +38,9 @@ const ProductDetails = () => {
                 
                 <div>
                   <h3 className="font-semibold text-foreground mb-3">🌈 Light Brightness Levels</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    From dreamy dim to morning bright — with multiple glow levels and warm or cool tones, Lumytot lets you set the perfect vibe for sleepy moons or sunny wake-ups.
+                  </p>
                 </div>
               </div>
             </div>
