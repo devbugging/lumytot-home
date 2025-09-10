@@ -50,9 +50,9 @@ export default {
         },
         warm: {
           orange: "hsl(var(--warm-orange))",
+          brown: "hsl(var(--warm-brown))",
           cream: "hsl(var(--warm-cream))",
           peach: "hsl(var(--soft-peach))",
-          brown: "hsl(var(--gentle-brown))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
