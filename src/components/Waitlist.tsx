@@ -34,7 +34,7 @@ const Waitlist = () => {
             <img 
               src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png" 
               alt="Happy family with toddler using Lumytot device"
-              className="w-full h-auto rounded-2xl"
+              className="w-full h-auto rounded-l-2xl"
             />
           </div>
           
