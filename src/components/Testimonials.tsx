@@ -50,7 +50,7 @@ const Testimonials = () => {
                 ))}
               </div>
               
-              <blockquote className="text-muted-foreground text-sm leading-relaxed mb-6">
+              <blockquote className="text-muted-foreground text-sm leading-relaxed mb-6 [color:hsl(var(--muted-foreground))]">
                 "{testimonial.text}"
               </blockquote>
               
