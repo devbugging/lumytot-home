@@ -10,7 +10,7 @@ const Benefits = () => {
     },
     {
       icon: <Moon className="w-6 h-6" />,
-      title: "Better Social and Emotional Development",
+      title: "Better Mood and Behavior",
       description: "Well-rested children show improved emotional regulation, better social skills, and increased empathy."
     },
     {
