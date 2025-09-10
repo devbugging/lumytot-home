@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Help Your Toddler
             <br />
-            <span className="text-primary-glow">Sleep Better</span>
+            <span className="bg-[#7562A4] text-white px-4 py-2 rounded-lg inline-block">Sleep Better</span>
           </h1>
           
           <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto leading-relaxed">
