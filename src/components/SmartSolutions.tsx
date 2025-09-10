@@ -41,11 +41,11 @@ const SmartSolutions = () => {
           {/* Sleep Tips and Reminders */}
           <div className="relative">
             <div className="w-80 h-96 mx-auto bg-gradient-to-br from-purple-100 to-blue-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden">
-              <div className="w-full h-48 rounded-t-full overflow-hidden bg-white flex items-center justify-center">
+              <div className="w-full h-48 rounded-t-full overflow-hidden bg-white">
                 <img 
                   src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png"
                   alt="Lumytot app showing sleep tips and reminders"
-                  className="h-40 w-auto object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="text-center p-6">
