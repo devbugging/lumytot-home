@@ -31,18 +31,9 @@ const ProductDetails = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-3">✨ Dimensions & Materials</h3>
                 <div className="space-y-2">
-                  {[
-                    "1x Lumytot Smart Nightlight",
-                    "1x USB-C Charging Cable", 
-                    "1x Quick Start Guide",
-                    "1x Sleep Tips Booklet",
-                    "Access to Lumytot Mobile App"
-                  ].map((item, index) => (
-                    <div key={index} className="flex items-center gap-3">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></div>
-                      <span className="text-muted-foreground text-sm">{item}</span>
-                    </div>
-                  ))}
+                  <p className="text-muted-foreground text-sm">
+                    Just the right size: 5" × 5" × 4" of pure cuteness. Made from BPA-free, toddler-safe materials with a silky soft-touch finish — because style should always come with safety.
+                  </p>
                 </div>
               </div>
             </div>
