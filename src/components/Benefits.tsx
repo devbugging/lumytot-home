@@ -32,7 +32,7 @@ const Benefits = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             The Benefits of Quality Sleep for Your Child
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-custom max-w-2xl mx-auto">
             Scientific research shows that healthy sleep patterns are fundamental to your child's overall development and well-being.
           </p>
         </div>
