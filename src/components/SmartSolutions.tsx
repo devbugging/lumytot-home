@@ -41,18 +41,12 @@ const SmartSolutions = () => {
           {/* Sleep Tips and Reminders */}
           <div className="relative">
             <div className="w-80 h-96 mx-auto bg-gradient-to-br from-purple-100 to-blue-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden">
-              <div className="w-full h-48 rounded-t-full overflow-hidden bg-white flex items-end justify-center pb-4">
-                <div className="w-40 h-32 bg-slate-800 rounded-2xl flex items-center justify-center shadow-xl">
-                  <div className="text-white text-center p-3">
-                    <div className="w-6 h-6 bg-amber-400 rounded-full mx-auto mb-3"></div>
-                    <div className="space-y-1">
-                      <div className="h-1 bg-white/20 rounded w-full"></div>
-                      <div className="h-1 bg-white/20 rounded w-3/4 mx-auto"></div>
-                      <div className="h-1 bg-white/20 rounded w-1/2 mx-auto"></div>
-                    </div>
-                    <div className="mt-2 text-xs">Sleep Tips</div>
-                  </div>
-                </div>
+              <div className="w-full h-48 rounded-t-full overflow-hidden bg-white flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png"
+                  alt="Lumytot app showing sleep tips and reminders"
+                  className="h-40 w-auto object-contain"
+                />
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
