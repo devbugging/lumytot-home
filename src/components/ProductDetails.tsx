@@ -29,7 +29,7 @@ const ProductDetails = () => {
             <div className="space-y-6">
               
               <div>
-                <h3 className="font-semibold text-foreground mb-3">In the Box</h3>
+                <h3 className="font-semibold text-foreground mb-3">✨ Dimensions & Materials</h3>
                 <div className="space-y-2">
                   {[
                     "1x Lumytot Smart Nightlight",
