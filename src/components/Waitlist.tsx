@@ -28,18 +28,18 @@ const Waitlist = () => {
   return (
     <section className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-0 items-center">
           {/* Left side - Family image */}
           <div className="order-2 lg:order-1">
             <img 
               src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png" 
               alt="Happy family with toddler using Lumytot device"
-              className="w-full h-auto rounded-2xl"
+              className="w-full h-auto"
             />
           </div>
           
           {/* Right side - Waitlist form */}
-          <div className="order-1 lg:order-2 space-y-6 bg-waitlist-bg p-8 rounded-2xl">
+          <div className="order-1 lg:order-2 space-y-6 bg-waitlist-bg p-8 lg:p-12 h-full flex flex-col justify-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Join the waiting list now
             </h2>
