@@ -46,7 +46,7 @@ All colors MUST be HSL.
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(32 85% 65% / 0.9), hsl(28 75% 70% / 0.8));
-    --gradient-warm: linear-gradient(180deg, hsl(0 0% 100%), hsl(267 25% 94%));
+    --gradient-warm: linear-gradient(180deg, hsl(35 50% 98%), hsl(32 35% 92%));
     --gradient-card: linear-gradient(145deg, hsl(35 50% 98%), hsl(32 25% 95%));
 
     /* Shadows */
@@ -112,7 +112,7 @@ All colors MUST be HSL.
 
     /* Dark mode gradients */
     --gradient-hero: linear-gradient(135deg, hsl(32 85% 65% / 0.8), hsl(28 75% 60% / 0.7));
-    --gradient-warm: linear-gradient(180deg, hsl(267 25% 20%), hsl(267 15% 16%));
+    --gradient-warm: linear-gradient(180deg, hsl(25 25% 12%), hsl(25 15% 18%));
     --gradient-card: linear-gradient(145deg, hsl(25 25% 12%), hsl(25 15% 15%));
 
     /* Dark shadows */
