@@ -54,7 +54,6 @@ export default {
           cream: "hsl(var(--warm-cream))",
           peach: "hsl(var(--soft-peach))",
         },
-        "text-custom": "hsl(var(--text-custom))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
