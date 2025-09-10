@@ -18,13 +18,6 @@ const Hero = () => {
           {/* Add a subtle inner glow */}
           <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
           <div className="relative z-10">
-          {/* Night light icon */}
-          <div className="flex justify-center mb-6">
-            <div className="w-16 h-16 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-lg border border-white/30">
-              <div className="text-3xl">🌙⭐</div>
-            </div>
-          </div>
-          
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Help Your Toddler
             <br />
