@@ -15,7 +15,7 @@ const SmartSolutions = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Sun/Moon Light Indicator */}
           <div className="relative">
-            <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-50 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-25 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
                 <img src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png" alt="Mother and child enjoying Lumytot together" className="w-full h-full object-cover" />
               </div>
@@ -32,7 +32,7 @@ const SmartSolutions = () => {
 
           {/* Sleep Tips and Reminders */}
           <div className="relative">
-            <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-50 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-25 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
                 <img src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png" alt="Lumytot app showing sleep tips and reminders" className="w-full h-full object-cover" />
               </div>
@@ -49,7 +49,7 @@ const SmartSolutions = () => {
 
           {/* Timers and Lights */}
           <div className="relative">
-            <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-50 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-96 h-[28rem] mx-auto bg-warm-cream bg-opacity-25 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
                 <img src="/lovable-uploads/a42d9a15-1ab1-4526-8448-95b422237804.png" alt="Hands holding phone with Lumytot timer and schedule interface" className="w-full h-full object-cover" />
               </div>
