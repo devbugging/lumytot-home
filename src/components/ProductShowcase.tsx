@@ -12,7 +12,7 @@ const ProductShowcase = () => {
 
   return (
     <section className="py-20 bg-gradient-warm">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 space-y-6">
             <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
