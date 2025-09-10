@@ -17,10 +17,10 @@ const Hero = () => {
         <div className="bg-white/10 backdrop-blur-lg rounded-full p-20 md:p-24 border border-white/20 shadow-2xl w-[750px] h-[750px] flex items-center justify-center">
           {/* Add a subtle inner glow */}
         <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
-        <div className="absolute top-2 left-1/2 transform -translate-x-1/2 bg-[#7562A4] text-white px-3 py-1 rounded-full text-xs font-medium z-10">
-          NAPS. NIGHTS. SOLVED.
-        </div>
-          <div className="relative z-10">
+        <div className="relative z-10">
+          <div className="mb-4 inline-block bg-[#7562A4] text-white px-3 py-1 rounded-full text-xs font-medium">
+            NAPS. NIGHTS. SOLVED.
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Help Your Toddler
             <br />
