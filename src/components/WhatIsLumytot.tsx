@@ -20,11 +20,6 @@ const WhatIsLumytot = () => {
             </h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                Lumytot is an innovative smart sleep solution designed specifically for toddlers and young children. 
-                Our scientifically-backed nightlight creates the optimal sleep environment through carefully calibrated 
-                light therapy and soothing sounds.
-              </p>
               
               <p>
                 Lumytot was born from a simple idea: helping toddlers understand sleep through light, routine, and gentle guidance. Blending playful design with science-backed tools, Lumytot offers calm, clarity, and comfort—for both kids and parents. With soft tones, rounded shapes, and thoughtful cues, every detail is designed to support better rest and brighter mornings.
