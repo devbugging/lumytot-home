@@ -40,7 +40,7 @@ const SmartSolutions = () => {
 
           {/* Sleep Tips and Reminders */}
           <div className="relative">
-            <div className="w-96 h-[28rem] mx-auto bg-gradient-to-br from-purple-100 to-blue-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-96 h-[28rem] mx-auto bg-warm-cream rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
                 <img 
                   src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png"
@@ -61,7 +61,7 @@ const SmartSolutions = () => {
 
           {/* Timers and Lights */}
           <div className="relative">
-            <div className="w-96 h-[28rem] mx-auto bg-gradient-to-br from-orange-100 to-amber-100 rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
+            <div className="w-96 h-[28rem] mx-auto bg-warm-cream rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden bg-white">
                 <img 
                   src="/lovable-uploads/a42d9a15-1ab1-4526-8448-95b422237804.png"
