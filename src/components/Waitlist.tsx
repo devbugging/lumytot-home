@@ -75,7 +75,7 @@ const Waitlist = () => {
             
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <span>👶</span>
-              <span>No spam. Just sweet dreams.</span>
+              <span className="text-custom">No spam. Just sweet dreams.</span>
             </div>
           </div>
         </div>
