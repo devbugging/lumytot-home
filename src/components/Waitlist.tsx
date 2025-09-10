@@ -29,36 +29,22 @@ const Waitlist = () => {
     <section className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
-              Limited Early Access
-            </div>
-            
+          {/* Left side - Family image */}
+          <div className="order-2 lg:order-1">
+            <img 
+              src="/lovable-uploads/545f0b50-1d10-4062-bc2e-4e3f1cf9d838.png" 
+              alt="Happy family with toddler using Lumytot device"
+              className="w-full h-auto rounded-2xl"
+            />
+          </div>
+          
+          {/* Right side - Waitlist form */}
+          <div className="order-1 lg:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Join the waiting list now
             </h2>
             
-            <p className="text-muted-foreground leading-relaxed">
-              Be among the first to experience Lumytot and give your child the gift of better sleep. 
-              Early supporters receive exclusive benefits and special pricing.
-            </p>
-            
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-sm text-muted-foreground">Early bird pricing (save 30%)</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-sm text-muted-foreground">Free shipping to your door</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-sm text-muted-foreground">Priority customer support</span>
-              </div>
-            </div>
-            
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 pt-4">
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
               <Input
                 type="email"
                 placeholder="Enter your email address"
@@ -73,35 +59,23 @@ const Waitlist = () => {
                 size="lg"
                 disabled={isLoading}
                 className="h-12 px-8 whitespace-nowrap"
+                style={{backgroundColor: '#7562A4'}}
               >
                 {isLoading ? 'Joining...' : 'Join Waitlist'}
               </Button>
             </form>
             
-            <p className="text-xs text-muted-foreground">
-              No spam, unsubscribe at any time. We respect your privacy.
+            <p className="text-muted-foreground leading-relaxed">
+              Be the first to know! We're putting the final touches on 
+              Lumytot — a smarter, gentler sleep trainer for toddlers. 
+              Sign up to be the first to hear when Lumytot is ready. 
+              Perfect for parents looking to build better sleep routines 
+              — effortlessly.
             </p>
-          </div>
-          
-          <div className="lg:flex justify-center">
-            <div className="bg-gradient-card rounded-2xl p-8 shadow-soft border border-border/50 max-w-md">
-              <div className="text-center space-y-4">
-                <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
-                  <span className="text-2xl">👶</span>
-                </div>
-                <h3 className="text-xl font-semibold text-foreground">Join Our Community</h3>
-                <p className="text-muted-foreground text-sm">
-                  Get sleep tips, parenting advice, and exclusive updates from our team of experts.
-                </p>
-                <div className="flex justify-center items-center gap-2 pt-2">
-                  <div className="flex -space-x-1">
-                    {[1, 2, 3, 4, 5].map((i) => (
-                      <div key={i} className="w-6 h-6 bg-warm-orange rounded-full border border-background"></div>
-                    ))}
-                  </div>
-                  <span className="text-xs text-muted-foreground">500+ parents joined</span>
-                </div>
-              </div>
+            
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <span>👶</span>
+              <span>No spam. Just sweet dreams.</span>
             </div>
           </div>
         </div>
