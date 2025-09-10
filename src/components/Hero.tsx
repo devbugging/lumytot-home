@@ -27,7 +27,7 @@ const Hero = () => {
             <span className="text-white">Sleep Better</span>
           </h1>
           
-          <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto leading-relaxed text-white">
             The world's first nap-friendly sleep trainer. Lumytot makes nights restful and naps effortless, bringing peace to the whole family.
           </p>
           
