@@ -32,7 +32,15 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button variant="warm" size="sm">
+        <Button 
+          variant="warm" 
+          size="sm"
+          onClick={() => {
+            document.getElementById('waitlist')?.scrollIntoView({ 
+              behavior: 'smooth' 
+            });
+          }}
+        >
           Join Waitlist
         </Button>
       </div>

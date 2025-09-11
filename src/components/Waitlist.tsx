@@ -23,7 +23,7 @@ const Waitlist = () => {
       });
     }, 1000);
   };
-  return <section className="py-20">
+  return <section id="waitlist" className="py-20">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-0 items-center border border-border rounded-2xl overflow-hidden">
           {/* Left side - Family image */}
