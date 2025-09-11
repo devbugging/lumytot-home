@@ -12,7 +12,7 @@ const ProductDetails = () => {
   return (
     <section className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
-        <div className="grid lg:grid-cols-2 gap-15 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <img 
               src="/lovable-uploads/c3dde79d-95db-4e0f-98c8-32d282df36f9.png" 
