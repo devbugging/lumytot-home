@@ -27,6 +27,9 @@ const Header = () => {
           <a href="#testimonials" className="text-muted-foreground hover:text-foreground transition-colors">
             Reviews
           </a>
+          <a href="#blog" className="text-muted-foreground hover:text-foreground transition-colors">
+            Blog
+          </a>
         </nav>
 
         <Button variant="warm" size="sm">
