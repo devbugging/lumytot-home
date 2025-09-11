@@ -26,12 +26,7 @@ const ProductShowcase = () => {
               a product that truly makes bedtime easier for the whole family.
             </p>
             
-            <div className="space-y-3">
-              {features.map((feature, index) => <div key={index} className="flex items-center gap-3">
-                  
-                  <span className="text-muted-foreground text-base">{feature}</span>
-                </div>)}
-            </div>
+            
             
             <div className="pt-6">
               <h3 className="font-semibold text-foreground mb-3">Elegant Design Meets Daily Function</h3>
