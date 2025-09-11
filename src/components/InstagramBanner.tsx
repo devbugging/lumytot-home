@@ -7,15 +7,11 @@ const InstagramBanner = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="bg-gradient-card rounded-2xl p-8 md:p-12 text-center border border-border/50 shadow-soft">
-          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
-            Follow Us on Instagram
-          </h2>
-          
           {/* Photo collage */}
           <div className="flex justify-center mb-8">
-            <div className="relative w-32 h-32">
+            <div className="relative">
               {/* Main Instagram icon */}
-              <div className="bg-gradient-to-br from-pink-500 to-orange-400 p-6 rounded-full z-20 relative absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="bg-gradient-to-br from-pink-500 to-orange-400 p-6 rounded-full z-20 relative">
                 <Instagram className="w-10 h-10 text-white" />
               </div>
               
@@ -40,6 +36,10 @@ const InstagramBanner = () => {
               </div>
             </div>
           </div>
+          
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+            Follow Us on Instagram
+          </h2>
           
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8 text-lg">
             Join our community of sleep-loving parents! Get daily tips, real family stories, 
