@@ -2,19 +2,15 @@ import React from 'react';
 // import deviceImage from '@/assets/lumytot-device.jpg';
 
 const ProductShowcase = () => {
-  const features = [
-    "Elegant Design Meets Daily Function",
-    "Sleep cycle optimization technology", 
-    "Whisper-quiet operation",
-    "Easy setup and maintenance"
-  ];
-
-  return (
-    <section className="py-20 bg-gradient-warm">
+  const features = ["Elegant Design Meets Daily Function", "Sleep cycle optimization technology", "Whisper-quiet operation", "Easy setup and maintenance"];
+  return <section className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 space-y-6">
-            <div className="inline-block px-4 py-2 rounded-full text-sm font-medium" style={{color: '#7562A4', backgroundColor: '#7562A420'}}>
+            <div className="inline-block px-4 py-2 rounded-full text-sm font-medium" style={{
+            color: '#7562A4',
+            backgroundColor: '#7562A420'
+          }}>
               RESEARCH & DESIGN
             </div>
             
@@ -25,17 +21,16 @@ const ProductShowcase = () => {
             </h2>
             
             <p className="text-custom leading-relaxed">
-              Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos: 
-              <br /><span className="text-primary">✓</span> No buttons to mash <br /><span className="text-primary">✓</span> No bright lights to overstimulate <br /><span className="text-primary">✓</span> Just one glowing cue to make sleep routines easier (for everyone).
+              Every aspect of Lumytot has been carefully crafted with both children and parents in mind. 
+              From our intuitive controls to our scientifically-backed sleep programs, we've created 
+              a product that truly makes bedtime easier for the whole family.
             </p>
             
             <div className="space-y-3">
-              {features.map((feature, index) => (
-                <div key={index} className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
+              {features.map((feature, index) => <div key={index} className="flex items-center gap-3">
+                  
                   <span className="text-muted-foreground text-base">{feature}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
             
             <div className="pt-6">
@@ -49,17 +44,11 @@ const ProductShowcase = () => {
           
           <div className="order-1 lg:order-2">
             <div className="relative">
-              <img 
-                src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" 
-                alt="Lumytot device displaying moon and stars on nightstand next to sleeping child"
-                className="w-full h-auto rounded-xl"
-              />
+              <img src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" alt="Lumytot device displaying moon and stars on nightstand next to sleeping child" className="w-full h-auto rounded-xl" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProductShowcase;
