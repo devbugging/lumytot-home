@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const InstagramBanner = () => {
   return (
-    <section className="py-16 bg-gradient-warm">
+    <section className="py-16 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="bg-gradient-card rounded-2xl p-8 md:p-12 text-center border border-border/50 shadow-soft">
           <div className="flex justify-center mb-6">
