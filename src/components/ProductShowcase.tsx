@@ -28,6 +28,8 @@ const ProductShowcase = () => {
 <br /><span className="text-primary">✓</span> Just one glowing cue to make sleep routines easier (for everyone).
             </p>
             
+            <p className="text-custom leading-relaxed">Elegant design meets everyday chaos. Lumytot blends smart sleep tech with whisper-quiet magic to help your little one rest better, and maybe even give you a break. It's super easy to set up, a breeze to maintain, and made to fit right into your family's beautifully messy routine.</p>
+            
             
             <div className="pt-6">
               <h3 className="font-semibold text-foreground mb-3">Elegant Design Meets Daily Function</h3>
