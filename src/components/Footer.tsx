@@ -20,6 +20,17 @@ const Footer = () => {
             </p>
           </div>
           
+          <div>
+            <h4 className="font-semibold mb-4">Company</h4>
+            <ul className="space-y-2 text-sm text-warm-cream/80">
+              <li><a href="#" className="hover:text-warm-cream transition-colors">About Us</a></li>
+              <li><a href="#" className="hover:text-warm-cream transition-colors">Our Mission</a></li>
+              <li><a href="#" className="hover:text-warm-cream transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-warm-cream transition-colors">Terms of Service</a></li>
+            </ul>
+          </div>
+          
+          <div></div>
           
           <div>
             <h4 className="font-semibold mb-4">Here for you</h4>
@@ -28,16 +39,6 @@ const Footer = () => {
               <li><a href="#" className="hover:text-warm-cream transition-colors">Sleep Tips</a></li>
               <li><a href="#" className="hover:text-warm-cream transition-colors">Contact Us</a></li>
               <li><a href="#" className="hover:text-warm-cream transition-colors">Warranty</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-2 text-sm text-warm-cream/80">
-              <li><a href="#" className="hover:text-warm-cream transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-warm-cream transition-colors">Our Mission</a></li>
-              <li><a href="#" className="hover:text-warm-cream transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-warm-cream transition-colors">Terms of Service</a></li>
             </ul>
           </div>
         </div>
