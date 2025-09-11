@@ -13,36 +13,30 @@ const InstagramBanner = () => {
           
           {/* Photo collage */}
           <div className="flex justify-center mb-8">
-            <div className="relative">
+            <div className="relative w-32 h-32">
               {/* Main Instagram icon */}
-              <div className="bg-gradient-to-br from-pink-500 to-orange-400 p-6 rounded-full z-10 relative">
+              <div className="bg-gradient-to-br from-pink-500 to-orange-400 p-6 rounded-full z-20 relative absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <Instagram className="w-10 h-10 text-white" />
               </div>
               
-              {/* Photo mash around the icon - better distributed */}
-              <div className="absolute -top-8 -left-20 w-28 h-28 rounded-xl overflow-hidden border-3 border-white shadow-xl transform -rotate-12 hover:scale-105 transition-transform">
+              {/* Photo mash around the icon - properly spaced */}
+              <div className="absolute -top-4 -left-8 w-16 h-16 rounded-xl overflow-hidden border-2 border-white shadow-xl transform -rotate-12 hover:scale-105 transition-transform z-10">
                 <img src="/lovable-uploads/b99a08d5-58b3-4224-a6bc-b59f3a4195c9.png" alt="Happy family moment" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute -top-8 -right-20 w-28 h-28 rounded-xl overflow-hidden border-3 border-white shadow-xl transform rotate-12 hover:scale-105 transition-transform">
+              <div className="absolute -top-4 -right-8 w-16 h-16 rounded-xl overflow-hidden border-2 border-white shadow-xl transform rotate-12 hover:scale-105 transition-transform z-10">
                 <img src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png" alt="Lumytot in action" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute -bottom-8 -left-18 w-24 h-24 rounded-xl overflow-hidden border-3 border-white shadow-xl transform rotate-6 hover:scale-105 transition-transform">
+              <div className="absolute -bottom-4 -left-8 w-16 h-16 rounded-xl overflow-hidden border-2 border-white shadow-xl transform rotate-6 hover:scale-105 transition-transform z-10">
                 <img src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png" alt="Peaceful sleep" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute -bottom-8 -right-18 w-24 h-24 rounded-xl overflow-hidden border-3 border-white shadow-xl transform -rotate-6 hover:scale-105 transition-transform">
+              <div className="absolute -bottom-4 -right-8 w-16 h-16 rounded-xl overflow-hidden border-2 border-white shadow-xl transform -rotate-6 hover:scale-105 transition-transform z-10">
                 <img src="/lovable-uploads/6422a9c3-d6a4-4411-a930-92344931a381.png" alt="Sweet dreams" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute top-12 -left-28 w-20 h-20 rounded-lg overflow-hidden border-2 border-white shadow-lg transform rotate-45 hover:scale-105 transition-transform">
+              <div className="absolute top-2 -left-12 w-14 h-14 rounded-lg overflow-hidden border-2 border-white shadow-lg transform rotate-45 hover:scale-105 transition-transform z-10">
                 <img src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" alt="Family time" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute top-12 -right-28 w-20 h-20 rounded-lg overflow-hidden border-2 border-white shadow-lg transform -rotate-45 hover:scale-105 transition-transform">
+              <div className="absolute top-2 -right-12 w-14 h-14 rounded-lg overflow-hidden border-2 border-white shadow-lg transform -rotate-45 hover:scale-105 transition-transform z-10">
                 <img src="/lovable-uploads/3dbf7ede-0cb4-4785-b1c1-ea1cbfb8470d.png" alt="Better sleep" className="w-full h-full object-cover" />
-              </div>
-              <div className="absolute -left-24 top-2 w-18 h-18 rounded-lg overflow-hidden border-2 border-white shadow-lg transform rotate-12 hover:scale-105 transition-transform">
-                <img src="/lovable-uploads/545f0b50-1d10-4062-bc2e-4e3f1cf9d838.png" alt="Sweet moments" className="w-full h-full object-cover" />
-              </div>
-              <div className="absolute -right-24 top-2 w-18 h-18 rounded-lg overflow-hidden border-2 border-white shadow-lg transform -rotate-12 hover:scale-105 transition-transform">
-                <img src="/lovable-uploads/ac7f8321-ad8e-481a-9f6f-a3ca0cc71a05.png" alt="Peaceful nights" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
