@@ -24,7 +24,7 @@ const ProductShowcase = () => {
             
             <p className="text-custom leading-relaxed">Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos: 
 <br /><span className="text-primary">✓</span> No buttons to mash 
-<br /><span className="text-primary">✓</span> No bright lights to overstimulate 
+<br /><span className="text-primary">✓</span> No bright lights to overstimulate (fully adjustable brightness) 
 <br /><span className="text-primary">✓</span> Just one glowing cue to make sleep routines easier (for everyone).
             </p>
             
