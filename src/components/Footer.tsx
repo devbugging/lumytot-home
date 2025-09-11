@@ -62,17 +62,6 @@ const Footer = () => {
                   <Instagram size={20} />
                 </a>
               </div>
-              <div className="flex items-center gap-6">
-                <a href="#" className="text-warm-cream/60 hover:text-warm-cream transition-colors text-sm">
-                  Privacy
-                </a>
-                <a href="#" className="text-warm-cream/60 hover:text-warm-cream transition-colors text-sm">
-                  Terms
-                </a>
-                <a href="#" className="text-warm-cream/60 hover:text-warm-cream transition-colors text-sm">
-                  Cookies
-                </a>
-              </div>
             </div>
           </div>
         </div>
