@@ -38,7 +38,7 @@ const Header = () => {
             });
           }}
         >
-          Join Waitlist
+          Yes, I Need Sleep!
         </Button>
       </div>
     </header>
