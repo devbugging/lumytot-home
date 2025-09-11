@@ -58,7 +58,7 @@ const InstagramBanner = () => {
           </Button>
           
           <div className="mt-6 text-sm text-muted-foreground">
-            Our toddler sleeps better than our follower count.
+            We don't have many followers yet, but at least we're well-rested.
           </div>
         </div>
       </div>
