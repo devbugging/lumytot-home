@@ -25,9 +25,7 @@ const ProductShowcase = () => {
             </h2>
             
             <p className="text-custom leading-relaxed">
-              Every aspect of Lumytot has been carefully crafted with both children and parents in mind. 
-              From our intuitive controls to our scientifically-backed sleep programs, we've created 
-              a product that truly makes bedtime easier for the whole family.
+              Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos: ✓ No buttons to mash ✓ No bright lights to overstimulate ✓ Just one glowing cue to make sleep routines easier (for everyone).
             </p>
             
             <div className="space-y-3">
