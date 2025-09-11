@@ -25,7 +25,8 @@ const ProductShowcase = () => {
             </h2>
             
             <p className="text-custom leading-relaxed">
-              Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos: ✓ No buttons to mash ✓ No bright lights to overstimulate ✓ Just one glowing cue to make sleep routines easier (for everyone).
+              Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos: 
+              <br />✓ No buttons to mash ✓ No bright lights to overstimulate ✓ Just one glowing cue to make sleep routines easier (for everyone).
             </p>
             
             <div className="space-y-3">
