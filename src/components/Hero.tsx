@@ -37,11 +37,6 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="mt-8 text-sm opacity-75">
-            <span className="inline-flex items-center gap-2">
-              🔒 Secure Pre-order • 💝 Special Launch Price
-            </span>
-          </div>
           </div>
         </div>
       </div>
