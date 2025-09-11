@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
           
           {/* Scroll Indicator */}
-          <div className="mt-8 flex flex-col items-center text-white/80">
+          <div className="mt-12 flex flex-col items-center text-white/80">
             <div className="flex flex-col items-center animate-bounce">
               <Mouse className="w-6 h-6 mb-2" />
               <span className="text-sm font-medium">Scroll to explore</span>
