@@ -18,9 +18,6 @@ const Header = () => {
           <a href="#what-is-lumytot" className="text-muted-foreground hover:text-foreground transition-colors">
             What is Lumytot
           </a>
-          <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
-            Features
-          </a>
           <a href="#benefits" className="text-muted-foreground hover:text-foreground transition-colors">
             Benefits
           </a>
