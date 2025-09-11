@@ -32,7 +32,7 @@ const InstagramBanner = () => {
                 <img src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" alt="Family time" className="w-full h-full object-cover" />
               </div>
               <div className="absolute top-2 -right-12 w-14 h-14 rounded-lg overflow-hidden border-2 border-white shadow-lg transform -rotate-45 hover:scale-105 transition-transform z-10">
-                <img src="/lovable-uploads/3dbf7ede-0cb4-4785-b1c1-ea1cbfb8470d.png" alt="Better sleep" className="w-full h-full object-cover" />
+                <img src="/lovable-uploads/03064fa4-21dc-42a2-8626-1e7c5f726d81.png" alt="Lumytot device showing sleep mode" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
