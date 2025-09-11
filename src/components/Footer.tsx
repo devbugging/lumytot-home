@@ -54,7 +54,7 @@ const Footer = () => {
         <div className="border-t border-warm-cream/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-warm-cream/60 text-sm">
-              © 2024 Lumytot. All rights reserved.
+              © 2025 Lumytot. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-4">
