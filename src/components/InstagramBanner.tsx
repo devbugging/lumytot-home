@@ -37,11 +37,33 @@ const InstagramBanner = () => {
             </div>
           </div>
           
-          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+          {/* Side photos for text area */}
+          <div className="absolute left-4 top-1/2 transform -translate-y-1/2 hidden lg:block">
+            <div className="w-24 h-32 rounded-xl overflow-hidden border-3 border-white shadow-xl transform -rotate-6 hover:scale-105 transition-transform">
+              <img src="/lovable-uploads/e408984a-a4b7-4ab5-95f5-0cf6289b8a79.png" alt="Sweet moments" className="w-full h-full object-cover" />
+            </div>
+          </div>
+          <div className="absolute right-4 top-1/2 transform -translate-y-1/2 hidden lg:block">
+            <div className="w-24 h-32 rounded-xl overflow-hidden border-3 border-white shadow-xl transform rotate-6 hover:scale-105 transition-transform">
+              <img src="/lovable-uploads/f696386d-f583-48db-ad2a-c9022393e240.png" alt="Happy families" className="w-full h-full object-cover" />
+            </div>
+          </div>
+          <div className="absolute left-8 bottom-8 hidden lg:block">
+            <div className="w-20 h-20 rounded-lg overflow-hidden border-2 border-white shadow-lg transform rotate-12 hover:scale-105 transition-transform">
+              <img src="/lovable-uploads/ac7f8321-ad8e-481a-9f6f-a3ca0cc71a05.png" alt="Bedtime stories" className="w-full h-full object-cover" />
+            </div>
+          </div>
+          <div className="absolute right-8 bottom-8 hidden lg:block">
+            <div className="w-20 h-20 rounded-lg overflow-hidden border-2 border-white shadow-lg transform -rotate-12 hover:scale-105 transition-transform">
+              <img src="/lovable-uploads/c3dde79d-95db-4e0f-98c8-32d282df36f9.png" alt="Peaceful nights" className="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4 relative z-10">
             Follow Us on Instagram
           </h2>
           
-          <p className="text-muted-foreground max-w-2xl mx-auto mb-8 text-lg">
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-8 text-lg relative z-10">
             Join our community of sleep-loving parents! Get daily tips, real family stories, 
             and behind-the-scenes content from the Lumytot team.
           </p>
