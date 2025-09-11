@@ -20,7 +20,7 @@ const ProductShowcase = () => {
               <span className="text-primary">Designed for Real Life.</span>
             </h2>
             
-            <p className="text-custom leading-relaxed">Every aspect of Lumytot has been carefully crafted with both children and parents in mind. From our intuitive controls to our scientifically-backed sleep programs, we've created a product that truly makes bedtime easier for the whole family. Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos: ✓ No buttons to mash ✓ No bright lights to overstimulate ✓ Just one glowing cue to make sleep routines easier (for everyone).  Elegant design meets everyday chaos. Lumytot blends smart sleep tech with whisper-quiet magic to help your little one rest better, and maybe even give you a break. It’s super easy to set up, a breeze to maintain, and made to fit right into your family’s beautifully messy routine.</p>
+            <p className="text-custom leading-relaxed">Every aspect of Lumytot has been carefully crafted with both children and parents in mind. From our intuitive controls to our scientifically-backed sleep programs, we've created a product that truly makes bedtime easier for the whole family. Elegant design meets everyday chaos. Lumytot blends smart sleep tech with whisper-quiet magic to help your little one rest better, and maybe even give you a break. It's super easy to set up, a breeze to maintain, and made to fit right into your family's beautifully messy routine.</p>
             
             
             
