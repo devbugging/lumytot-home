@@ -7,9 +7,27 @@ const InstagramBanner = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="bg-gradient-card rounded-2xl p-8 md:p-12 text-center border border-border/50 shadow-soft">
+          {/* Photo collage */}
           <div className="flex justify-center mb-6">
-            <div className="bg-gradient-to-br from-pink-500 to-orange-400 p-4 rounded-full">
-              <Instagram className="w-8 h-8 text-white" />
+            <div className="relative">
+              {/* Main Instagram icon */}
+              <div className="bg-gradient-to-br from-pink-500 to-orange-400 p-4 rounded-full z-10 relative">
+                <Instagram className="w-8 h-8 text-white" />
+              </div>
+              
+              {/* Photo mash around the icon */}
+              <div className="absolute -top-2 -left-8 w-12 h-12 rounded-lg overflow-hidden border-2 border-white shadow-lg transform -rotate-12">
+                <img src="/lovable-uploads/b99a08d5-58b3-4224-a6bc-b59f3a4195c9.png" alt="Happy family moment" className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute -top-2 -right-8 w-12 h-12 rounded-lg overflow-hidden border-2 border-white shadow-lg transform rotate-12">
+                <img src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png" alt="Lumytot in action" className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute -bottom-2 -left-6 w-10 h-10 rounded-lg overflow-hidden border-2 border-white shadow-lg transform rotate-6">
+                <img src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png" alt="Peaceful sleep" className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute -bottom-2 -right-6 w-10 h-10 rounded-lg overflow-hidden border-2 border-white shadow-lg transform -rotate-6">
+                <img src="/lovable-uploads/6422a9c3-d6a4-4411-a930-92344931a381.png" alt="Sweet dreams" className="w-full h-full object-cover" />
+              </div>
             </div>
           </div>
           
