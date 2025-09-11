@@ -5,7 +5,7 @@ const WhatIsLumytot = () => {
   return (
     <section id="what-is-lumytot" className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="order-2 lg:order-1">
             <img 
               src="/lovable-uploads/f696386d-f583-48db-ad2a-c9022393e240.png" 
