@@ -29,7 +29,7 @@ const ProductDetails = () => {
             <div className="space-y-6">
               
               <div>
-                <h3 className="font-semibold text-foreground mb-3">✨ Dimensions & Materials</h3>
+                <h3 className="font-semibold text-foreground mb-3">Dimensions & Materials</h3>
                 <div className="space-y-2">
                   <p className="text-muted-foreground leading-relaxed">
                     Just the right size: 5" × 5" × 4" of pure cuteness. Made from BPA-free, toddler-safe materials with a silky soft-touch finish — because style should always come with safety.
@@ -37,7 +37,7 @@ const ProductDetails = () => {
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold text-foreground mb-3 mt-6">🌈 Light Brightness Levels</h3>
+                  <h3 className="font-semibold text-foreground mb-3 mt-6">Light Brightness Levels</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     From dreamy dim to morning bright — with multiple glow levels and warm or cool tones, Lumytot lets you set the perfect vibe for sleepy moons or sunny wake-ups.
                   </p>
