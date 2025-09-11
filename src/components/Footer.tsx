@@ -7,9 +7,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-warm-orange rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">L</span>
-              </div>
+              <img 
+                src="/lovable-uploads/e408984a-a4b7-4ab5-95f5-0cf6289b8a79.png" 
+                alt="Lumytot Logo" 
+                className="w-8 h-8 rounded-lg"
+              />
               <span className="text-xl font-bold">Lumytot</span>
             </div>
             <p className="text-warm-cream/80 text-sm leading-relaxed">
