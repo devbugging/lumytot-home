@@ -8,8 +8,8 @@ const ProductShowcase = () => {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="order-2 lg:order-1 space-y-6">
             <div className="inline-block px-4 py-2 rounded-full text-sm font-medium" style={{
-            color: '#7562A4',
-            backgroundColor: '#7562A420'
+            color: '#738871',
+            backgroundColor: '#73887120'
           }}>RESEARCH & DESIGN</div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
