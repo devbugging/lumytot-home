@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <img 
-                src="/lovable-uploads/e408984a-a4b7-4ab5-95f5-0cf6289b8a79.png" 
+                src="/lumytot-logo-green.png" 
                 alt="Lumytot Logo" 
-                className="w-8 h-8 rounded-lg"
+                className="h-8 w-auto"
               />
               
             </div>
