@@ -16,7 +16,7 @@ const WhatIsLumytot = () => {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               
               <p>
-                Lumytot was born from a simple idea: helping toddlers understand sleep through light, routine, and gentle guidance. Blending playful design with science-backed tools, Lumytot offers calm, clarity, and comfort—for both kids and parents. With soft tones, rounded shapes, and thoughtful cues, every detail is designed to support better rest and brighter mornings.
+                Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it shows children when it's time to sleep and when it's time to wake. No noisy alarms or confusing buttons—just calm, clear cues that fit naturally into your child's routine. By making bedtime easy to understand, Lumytot helps kids settle faster, sleep longer, and wake up happier—while parents enjoy more peaceful nights.
               </p>
               
               <p>
