@@ -36,6 +36,7 @@ All colors MUST be HSL.
     --soft-peach: 28 75% 85%;
     --gentle-brown: 25 25% 35%;
     --text-custom: 0 0% 24%;
+    --header-button: 116 9% 49%;
     --waitlist-bg: 35 8% 91%;
     --feature-card-bg: 35 8% 91%;
 
@@ -108,6 +109,7 @@ All colors MUST be HSL.
     --soft-peach: 28 60% 75%;
     --gentle-brown: 35 50% 85%;
     --text-custom: 0 0% 24%;
+    --header-button: 116 9% 49%;
     --waitlist-bg: 282 30% 93%;
 
     --destructive: 0 75% 55%;
