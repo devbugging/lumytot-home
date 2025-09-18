@@ -30,7 +30,7 @@ const Testimonials = () => {
   return <section id="testimonials" className="py-20 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Happy Parents, rested kids.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Happy parents, rested kids.</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Real families sharing their experiences with Lumytot and how it's transformed their sleep routines.
           </p>
