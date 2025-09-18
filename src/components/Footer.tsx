@@ -13,7 +13,7 @@ const Footer = () => {
                 alt="Lumytot Logo" 
                 className="w-8 h-8 rounded-lg"
               />
-              <span className="text-xl font-bold">Lumytot</span>
+              
             </div>
             <p className="text-warm-cream/80 text-sm leading-relaxed">
               Smart sleep solutions designed to help your little ones get the rest they need for healthy growth and development.
