@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto -mt-8">
+      <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto">
         <div className="bg-white/10 backdrop-blur-lg rounded-full p-12 md:p-16 border border-white/20 shadow-2xl w-[600px] h-[600px] flex items-center justify-center">
           {/* Add a subtle inner glow */}
         <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
           
           {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white/80">
+          <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white/80">
             <div className="flex items-center gap-2 animate-bounce">
               <Mouse className="w-5 h-5" />
               <span className="text-sm font-medium">Scroll to explore</span>
