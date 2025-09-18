@@ -43,7 +43,7 @@ const Benefits = () => {
               key={index}
               className="bg-gradient-card rounded-xl p-6 text-center shadow-soft hover:shadow-warm transition-all duration-300 border border-border/50 group"
             >
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 transition-colors" style={{ backgroundColor: '#738871' }}>
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 transition-colors" style={{ backgroundColor: '#73887120' }}>
                 {benefit.icon}
               </div>
               
