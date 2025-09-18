@@ -1,5 +1,12 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { Globe } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -29,17 +36,36 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button 
-          variant="warm" 
-          size="sm"
-          onClick={() => {
-            document.getElementById('waitlist')?.scrollIntoView({ 
-              behavior: 'smooth' 
-            });
-          }}
-        >
-          Yes, I Need Sleep!
-        </Button>
+        <div className="flex items-center space-x-4">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="sm" className="flex items-center space-x-2">
+                <Globe className="w-4 h-4" />
+                <span className="hidden sm:inline">EN</span>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-background border border-border shadow-lg z-50">
+              <DropdownMenuItem className="cursor-pointer hover:bg-muted">
+                🇺🇸 English
+              </DropdownMenuItem>
+              <DropdownMenuItem className="cursor-pointer hover:bg-muted">
+                🇸🇮 Slovenščina
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <Button 
+            variant="warm" 
+            size="sm"
+            onClick={() => {
+              document.getElementById('waitlist')?.scrollIntoView({ 
+                behavior: 'smooth' 
+              });
+            }}
+          >
+            Yes, I Need Sleep!
+          </Button>
+        </div>
       </div>
     </header>
   );
