@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-6 md:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img 
-            src="/lumytot-logo.png" 
+            src="/lumytot-logo-green.png" 
             alt="Lumytot Logo" 
             className="h-8 w-auto"
           />
