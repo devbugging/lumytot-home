@@ -43,7 +43,7 @@ const Benefits = () => {
               key={index}
               className="bg-gradient-card rounded-xl p-6 text-center shadow-soft hover:shadow-warm transition-all duration-300 border border-border/50 group"
             >
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-header-button/10 text-header-button rounded-xl mb-4 group-hover:bg-header-button/20 transition-colors">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 text-primary rounded-xl mb-4 group-hover:bg-primary/20 transition-colors">
                 {benefit.icon}
               </div>
               
