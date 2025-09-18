@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <img 
-                src="/lumytot-logo-green.png" 
+                src="/lumytot-logo-2.png" 
                 alt="Lumytot Logo" 
                 className="h-8 w-auto"
               />
