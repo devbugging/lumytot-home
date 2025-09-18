@@ -1,23 +1,15 @@
 import React from 'react';
 import deviceImage from '@/assets/lumytot-device.jpg';
-
 const WhatIsLumytot = () => {
-  return (
-    <section id="what-is-lumytot" className="py-20 bg-gradient-warm">
+  return <section id="what-is-lumytot" className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="order-2 lg:order-1">
-            <img 
-              src="/lovable-uploads/f696386d-f583-48db-ad2a-c9022393e240.png" 
-              alt="Child sleeping peacefully with Lumytot nightlight on bedside table"
-              className="w-full h-auto rounded-2xl shadow-soft"
-            />
+            <img src="/lovable-uploads/f696386d-f583-48db-ad2a-c9022393e240.png" alt="Child sleeping peacefully with Lumytot nightlight on bedside table" className="w-full h-auto rounded-2xl shadow-soft" />
           </div>
           
           <div className="order-1 lg:order-2 space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Innovative smart sleep solution for toddlers and young children
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">A clock, that toddler understands.</h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               
@@ -33,8 +25,6 @@ const WhatIsLumytot = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default WhatIsLumytot;
