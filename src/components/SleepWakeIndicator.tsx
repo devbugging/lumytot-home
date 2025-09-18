@@ -16,12 +16,6 @@ const SleepWakeIndicator = () => {
             />
           </div>
           
-          {/* Moon Shining: Sleep Time - Right Side */}
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 text-right">
-            <div className="text-primary text-2xl md:text-3xl font-light leading-tight">
-              <div>sleep time</div>
-            </div>
-          </div>
           
         </div>
       </div>
