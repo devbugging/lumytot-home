@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4 backdrop-blur-md border-white/30 text-white hover:bg-white/30" style={{ backgroundColor: '#73887120' }}>
+            <Button variant="hero" size="lg" className="text-lg px-8 py-4 backdrop-blur-md border-white/30 text-white hover:bg-opacity-60" style={{ backgroundColor: 'rgba(115, 136, 113, 0.4)' }}>
               Join the Waiting List
             </Button>
           </div>
