@@ -4,22 +4,22 @@ import { Clock, Moon, Heart, TrendingUp } from 'lucide-react';
 const Benefits = () => {
   const benefits = [
     {
-      icon: <Clock className="w-6 h-6" />,
+      icon: <Clock className="w-6 h-6" style={{ color: '#738871' }} />,
       title: "Improved Cognitive Development",
       description: "Quality sleep is essential for brain development, memory consolidation, and learning in growing children."
     },
     {
-      icon: <Moon className="w-6 h-6" />,
+      icon: <Moon className="w-6 h-6" style={{ color: '#738871' }} />,
       title: "Better Mood and Behavior",
       description: "Well-rested children show improved emotional regulation, better social skills, and increased empathy."
     },
     {
-      icon: <Heart className="w-6 h-6" />,
+      icon: <Heart className="w-6 h-6" style={{ color: '#738871' }} />,
       title: "Stronger Immune System",
       description: "Adequate sleep strengthens the immune system, helping children fight off illnesses and stay healthy."
     },
     {
-      icon: <TrendingUp className="w-6 h-6" />,
+      icon: <TrendingUp className="w-6 h-6" style={{ color: '#738871' }} />,
       title: "Support for Healthy Growth",
       description: "Growth hormone is primarily released during deep sleep, making quality rest crucial for physical development."
     }
