@@ -22,8 +22,7 @@ const ProductDetails = () => {
           </div>
           
           <div className="order-1 lg:order-2 space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Everything you need to know about Lumy•tot.
-          </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Everything you need to know about Lumy•tot.</h2>
             
             <div className="space-y-6">
               
