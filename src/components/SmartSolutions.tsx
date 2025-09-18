@@ -51,7 +51,7 @@ const SmartSolutions = () => {
           <div className="relative">
             <div className="w-full max-w-md h-[28rem] mx-auto bg-feature-card-bg rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden">
-                <img src="/lovable-uploads/a42d9a15-1ab1-4526-8448-95b422237804.png" alt="Hands holding phone with Lumytot timer and schedule interface" className="w-full h-full object-cover" />
+                <img src="/lovable-uploads/timer-schedule-mockup.png" alt="Hands holding phone with Lumytot timer and schedule interface" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
