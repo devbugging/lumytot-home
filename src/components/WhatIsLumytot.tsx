@@ -11,6 +11,8 @@ const WhatIsLumytot = () => {
           <div className="order-1 lg:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">The clock your toddler understands.</h2>
             
+            <p className="text-lg md:text-xl text-muted-foreground/80 font-medium">Gentle guidance through light and routine for peaceful sleep.</p>
+            
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               
               <p>
