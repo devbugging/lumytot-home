@@ -11,7 +11,7 @@ const Header = () => {
             alt="Lumytot Logo" 
             className="h-8 w-auto"
           />
-          <span className="text-xl font-bold text-foreground">Lumytot</span>
+          
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
