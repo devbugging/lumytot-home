@@ -56,6 +56,7 @@ export default {
         },
         "text-custom": "hsl(var(--text-custom))",
         "waitlist-bg": "hsl(var(--waitlist-bg))",
+        "feature-card-bg": "hsl(var(--feature-card-bg))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
