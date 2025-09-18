@@ -15,8 +15,8 @@ const Hero = () => {
         <div className="bg-white/10 backdrop-blur-lg rounded-full p-12 md:p-16 border border-white/20 shadow-2xl w-[600px] h-[600px] flex items-center justify-center">
           {/* Add a subtle inner glow */}
         <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
-        <div className="relative z-10">
-          <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 inline-block bg-white/10 backdrop-blur-md text-white px-4 py-2 rounded-full text-xs font-medium border border-white/20 shadow-lg">
+        <div className="relative z-10 flex flex-col items-center h-full justify-center">
+          <div className="mb-8 inline-block bg-white/10 backdrop-blur-md text-white px-4 py-2 rounded-full text-xs font-medium border border-white/20 shadow-lg">
             NAPS. NIGHTS. SOLVED.
           </div>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-white">A Sleep Trainer That Actually Works.</h1>
