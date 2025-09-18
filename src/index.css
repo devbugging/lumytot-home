@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 99%;
     --popover-foreground: 0 0% 15%;
 
-    --primary: 116 34% 47%;
+    --primary: 92 21% 46%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 116 34% 55%;
+    --primary-glow: 92 21% 54%;
 
     --secondary: 0 0% 94%;
     --secondary-foreground: 0 0% 25%;
@@ -30,7 +30,7 @@ All colors MUST be HSL.
     --accent: 0 0% 90%;
     --accent-foreground: 0 0% 20%;
 
-    --warm-orange: 116 34% 47%;
+    --warm-orange: 92 21% 46%;
     --warm-brown: 0 0% 24%;
     --warm-cream: 42 60% 95%;
     --soft-peach: 28 75% 85%;
@@ -90,9 +90,9 @@ All colors MUST be HSL.
     --popover: 25 25% 12%;
     --popover-foreground: 35 50% 95%;
 
-    --primary: 116 34% 47%;
+    --primary: 92 21% 46%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 116 34% 55%;
+    --primary-glow: 92 21% 54%;
 
     --secondary: 25 15% 20%;
     --secondary-foreground: 35 50% 95%;
@@ -103,7 +103,7 @@ All colors MUST be HSL.
     --accent: 25 15% 22%;
     --accent-foreground: 35 50% 95%;
 
-    --warm-orange: 116 34% 47%;
+    --warm-orange: 92 21% 46%;
     --warm-brown: 0 0% 24%;
     --warm-cream: 35 30% 85%;
     --soft-peach: 28 60% 75%;
