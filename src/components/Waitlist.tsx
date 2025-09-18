@@ -40,7 +40,7 @@ const Waitlist = () => {
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
               <Input type="email" placeholder="Enter your email address" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 h-12 px-4 bg-background border-border/50 focus:border-primary transition-colors" required />
               <Button type="submit" variant="warm" size="lg" disabled={isLoading} className="h-12 px-8 whitespace-nowrap" style={{
-              backgroundColor: '#7562A4'
+              backgroundColor: '#738871'
             }}>
                 {isLoading ? 'Joining...' : 'Join Waitlist'}
               </Button>
