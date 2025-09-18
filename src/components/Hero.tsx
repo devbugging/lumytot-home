@@ -16,7 +16,7 @@ const Hero = () => {
           {/* Add a subtle inner glow */}
         <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
         <div className="relative z-10">
-          <div className="mb-4 inline-block bg-white/10 backdrop-blur-md text-white px-4 py-2 rounded-full text-xs font-medium border border-white/20 shadow-lg">
+          <div className="mb-2 inline-block bg-white/10 backdrop-blur-md text-white px-4 py-2 rounded-full text-xs font-medium border border-white/20 shadow-lg">
             NAPS. NIGHTS. SOLVED.
           </div>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-white">A Sleep Trainer That Actually Works.</h1>
