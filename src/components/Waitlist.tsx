@@ -27,8 +27,8 @@ const Waitlist = () => {
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-0 items-center border border-border rounded-2xl overflow-hidden">
           {/* Left side - Family image */}
-          <div className="order-2 lg:order-1">
-            <img src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png" alt="Happy family with toddler using Lumytot device" className="w-full h-auto rounded-l-2xl" />
+          <div className="order-2 lg:order-1 h-full">
+            <img src="/lovable-uploads/1d06827d-ed94-4c43-bdf7-e2cd2275acee.png" alt="Happy family with toddler using Lumytot device" className="w-full h-full object-cover rounded-l-2xl" />
           </div>
           
           {/* Right side - Waitlist form */}
