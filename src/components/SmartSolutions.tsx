@@ -34,7 +34,7 @@ const SmartSolutions = () => {
           <div className="relative">
             <div className="w-full max-w-md h-[28rem] mx-auto bg-feature-card-bg rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
               <div className="w-full h-72 rounded-t-full overflow-hidden">
-                <img src="/lovable-uploads/4429646c-d357-4686-9995-105bc97b2ef7.png" alt="Lumytot app showing sleep tips and reminders" className="w-full h-full object-cover" />
+                <img src="/lovable-uploads/sleep-app-mockup.png" alt="Lumytot app showing sleep tips and reminders" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
