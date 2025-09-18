@@ -33,9 +33,7 @@ const Waitlist = () => {
           
           {/* Right side - Waitlist form */}
           <div className="order-1 lg:order-2 space-y-6 bg-waitlist-bg p-8 lg:p-12 lg:pl-20 h-full flex flex-col justify-center rounded-r-2xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Don't Miss Out — Join the Waitlist
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Don't miss out - join the waitlist!</h2>
             
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
               <Input type="email" placeholder="Enter your email address" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 h-12 px-4 bg-background border-border/50 focus:border-primary transition-colors" required />
