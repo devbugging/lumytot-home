@@ -10,9 +10,7 @@ const ProductShowcase = () => {
             <div className="inline-block px-4 py-2 rounded-full text-sm font-medium" style={{
             color: '#7562A4',
             backgroundColor: '#7562A420'
-          }}>
-              RESEARCH & DESIGN
-            </div>
+          }}>RESEARCH & DESIGN</div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Created for Little Ones.
@@ -23,9 +21,9 @@ const ProductShowcase = () => {
             
             
             <p className="text-custom leading-relaxed">Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos: 
-<br /><span className="text-primary">✓</span> No buttons to mash 
-<br /><span className="text-primary">✓</span> No bright lights to overstimulate (fully adjustable brightness) 
-<br /><span className="text-primary">✓</span> Just one glowing cue to make sleep routines easier (for everyone).
+            <br /><span className="text-primary">✓</span> No buttons to mash 
+            <br /><span className="text-primary">✓</span> No bright lights to overstimulate (fully adjustable brightness) 
+            <br /><span className="text-primary">✓</span> Just one glowing cue to make sleep routines easier (for everyone).
             </p>
             
             <p className="text-custom leading-relaxed">Elegant design meets everyday chaos. Lumytot blends smart sleep tech with whisper-quiet magic to help your little one rest better, and maybe even give you a break. It's super easy to set up, a breeze to maintain, and made to fit right into your family's beautifully messy routine.</p>
