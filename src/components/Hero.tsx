@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="mb-4 inline-block bg-white/10 backdrop-blur-md text-white px-4 py-2 rounded-full text-xs font-medium border border-white/20 shadow-lg">
             NAPS. NIGHTS. SOLVED.
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             Help Your Toddler
             <br />
             <span className="text-white">Sleep Better</span>
