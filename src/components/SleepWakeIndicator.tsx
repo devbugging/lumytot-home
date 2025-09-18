@@ -4,27 +4,31 @@ const SleepWakeIndicator = () => {
   return (
     <section className="py-16 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
-        <div className="flex items-center justify-center max-w-4xl mx-auto">
+        <div className="relative flex items-center justify-center max-w-5xl mx-auto">
           
-          {/* Wake Up Time - Left Side */}
-          <div className="flex items-center flex-1">
-            <span className="text-lg font-medium text-foreground mr-4">Wake up time</span>
-            <div className="flex-1 h-0.5 bg-primary/30"></div>
+          {/* Sun Shining: Wake Up Time - Left Side */}
+          <div className="absolute left-0 top-1/2 -translate-y-1/2 text-left">
+            <div className="text-primary text-2xl md:text-3xl font-light leading-tight">
+              <div>sun shining:</div>
+              <div>wake up time</div>
+            </div>
           </div>
           
-          {/* Central Logo */}
-          <div className="mx-8 flex-shrink-0">
+          {/* Central Sun/Moon Graphic */}
+          <div className="flex-shrink-0 z-10">
             <img 
-              src="/lumytot-logo-green.png" 
-              alt="Lumytot sun and moon logo" 
-              className="w-24 h-24 object-contain"
+              src="/src/assets/sleep-wake-infographic.png"
+              alt="Sun and moon sleep wake cycle infographic" 
+              className="w-96 h-96 object-contain"
             />
           </div>
           
-          {/* Sleep Time - Right Side */}
-          <div className="flex items-center flex-1">
-            <div className="flex-1 h-0.5 bg-primary/30"></div>
-            <span className="text-lg font-medium text-foreground ml-4">Sleep time</span>
+          {/* Moon Shining: Sleep Time - Right Side */}
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 text-right">
+            <div className="text-primary text-2xl md:text-3xl font-light leading-tight">
+              <div>moon shining:</div>
+              <div>sleep time</div>
+            </div>
           </div>
           
         </div>
