@@ -16,8 +16,8 @@ const SleepWakeIndicator = () => {
             </p>
           </div>
 
-          {/* Cards Container - Full Width */}
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {/* Cards Container - Full Width 3 Columns */}
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
             {/* Wake Up Card */}
             <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-warm-orange/20 shadow-lg">
               <div className="flex items-start gap-4">
@@ -47,13 +47,13 @@ const SleepWakeIndicator = () => {
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Bottom Summary Card */}
-          <div className="bg-gradient-to-r from-warm-green/10 to-warm-orange/10 rounded-2xl p-8 border border-warm-green/30 max-w-4xl mx-auto mt-8">
-            <p className="text-lg text-warm-brown leading-relaxed font-medium">
-              By pairing light with daily routines, Lumytot gives toddlers a clear signal of what comes next—making mornings smoother, bedtimes calmer, and family life more predictable.
-            </p>
+            {/* Summary Card */}
+            <div className="bg-gradient-to-r from-warm-green/10 to-warm-orange/10 rounded-2xl p-8 border border-warm-green/30 md:col-span-2 lg:col-span-1">
+              <p className="text-lg text-warm-brown leading-relaxed font-medium">
+                By pairing light with daily routines, Lumytot gives toddlers a clear signal of what comes next—making mornings smoother, bedtimes calmer, and family life more predictable.
+              </p>
+            </div>
           </div>
         </div>
       </div>
