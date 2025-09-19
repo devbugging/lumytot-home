@@ -10,7 +10,7 @@ const SleepWakeIndicator = () => {
           {/* Central Sun/Moon Graphic */}
           <div className="flex-shrink-0 z-10">
             <img 
-              src="/src/assets/sleep-wake-infographic.png"
+              src="/src/assets/infographic-2.png"
               alt="Sun and moon sleep wake cycle infographic" 
               className="w-96 h-96 object-contain"
             />
