@@ -34,7 +34,7 @@ const SleepWakeIndicator = () => {
             </div>
 
             {/* Summary Card - Middle */}
-            <div className="bg-gradient-to-r from-warm-green/10 to-warm-orange/10 rounded-2xl p-8 border border-warm-green/30">
+            <div className="rounded-2xl p-8 border border-warm-green/30" style={{ backgroundColor: '#E9E7E5' }}>
               <p className="text-lg text-warm-brown leading-relaxed font-medium">
                 By pairing light with daily routines, Lumytot gives toddlers a clear signal of what comes next—making mornings smoother, bedtimes calmer, and family life more predictable.
               </p>
