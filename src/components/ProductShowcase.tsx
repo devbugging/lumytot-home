@@ -36,7 +36,7 @@ const ProductShowcase = () => {
           
           <div className="order-1 lg:order-2">
             <div className="relative">
-              <img src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" alt="Lumytot device displaying moon and stars on nightstand next to sleeping child" className="w-full h-auto rounded-xl" />
+              <img src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" alt="Lumytot device displaying moon and stars on nightstand next to sleeping child" className="w-4/5 h-auto rounded-xl mx-auto" />
             </div>
           </div>
         </div>
