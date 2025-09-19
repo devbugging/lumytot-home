@@ -32,13 +32,6 @@ const ProductShowcase = () => {
             <p className="text-custom leading-relaxed">Lumytot blends smart sleep tech with simple, child-friendly design. Is's quick to set up, and effortless to use. With Lumy•tot bedtime routines become calmer, clearer, and easier  for the whole family.</p>
             
             
-            <div className="pt-6">
-              <h3 className="font-semibold text-foreground mb-3">Elegant Design Meets Daily Function</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                We've combined beautiful aesthetics with practical functionality. Lumytot seamlessly integrates 
-                into any nursery or bedroom while providing the advanced sleep support your child needs.
-              </p>
-            </div>
           </div>
           
           <div className="order-1 lg:order-2">
