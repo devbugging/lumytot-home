@@ -28,7 +28,7 @@ const ProductShowcase = () => {
             <br /><span className="text-header-button">✓</span> Just one glowing cue to make sleep routines easier (for everyone).
             </p>
             
-            <p className="text-custom leading-relaxed">Lumytot bkends smart sleep tech with simple, child-friendly design. Is's quick to set up, and effortless to use. With Lumy•tot bedtime routines become calmer, clearer, and easier  for the whole family.</p>
+            <p className="text-custom leading-relaxed">Lumytot blends smart sleep tech with simple, child-friendly design. Is's quick to set up, and effortless to use. With Lumy•tot bedtime routines become calmer, clearer, and easier  for the whole family.</p>
             
             
             <div className="pt-6">
