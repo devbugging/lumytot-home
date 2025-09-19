@@ -9,7 +9,7 @@ const SleepWakeIndicator = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-warm-brown">
-              Why Light Cues Work for Toddlers
+              Why light cues work for toddlers?
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Toddlers can't read the clock, but they instinctively respond to light. Our bodies follow a natural circadian rhythm, which is guided by changes in light and darkness.
