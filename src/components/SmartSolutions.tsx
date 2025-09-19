@@ -53,7 +53,7 @@ const SmartSolutions = () => {
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Timers and Lights
+                  Custom Schedules
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed h-16">
                   Easily set day/night and nap times through our intuitive app, creating a consistent schedule.
