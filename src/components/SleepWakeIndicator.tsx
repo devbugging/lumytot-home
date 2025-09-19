@@ -3,7 +3,7 @@ import { Sun, Moon } from 'lucide-react';
 
 const SleepWakeIndicator = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-warm-beige to-warm-cream">
+    <section className="py-16 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
         <div className="max-w-none">{/* Removed max-w-6xl constraint */}
           {/* Header */}
