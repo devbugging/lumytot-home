@@ -13,9 +13,9 @@ const ProductShowcase = () => {
           }}>RESEARCH & DESIGN</div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Created for Little Ones.
+              Built for Toddlers.
               <br />
-              <span style={{ color: '#738871' }}>Designed for Real Life.</span>
+              <span style={{ color: '#738871' }}>Simplified for Parents.</span>
             </h2>
             
             
