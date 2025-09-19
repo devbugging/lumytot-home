@@ -18,7 +18,7 @@ const SleepWakeIndicator = () => {
           {/* Main Content Grid */}
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Left Column - Light Cue Cards */}
-            <div className="space-y-6">
+            <div className="grid md:grid-cols-2 gap-6">
               {/* Wake Up Card */}
               <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-warm-orange/20 shadow-lg">
                 <div className="flex items-start gap-4">
