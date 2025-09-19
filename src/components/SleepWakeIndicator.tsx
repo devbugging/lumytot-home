@@ -61,16 +61,6 @@ const SleepWakeIndicator = () => {
               </div>
             </div>
 
-            {/* Right Column - Infographic */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-8 border border-warm-orange/20 shadow-lg max-w-md w-full">
-                <img 
-                  src="/src/assets/infographic-3.png"
-                  alt="Sun and moon sleep wake cycle infographic showing light cues" 
-                  className="w-full object-contain"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </div>
