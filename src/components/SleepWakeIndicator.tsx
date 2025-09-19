@@ -21,7 +21,7 @@ const SleepWakeIndicator = () => {
             {/* Wake Up Card */}
             <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-warm-orange/20 shadow-lg">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-warm-green rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#738871' }}>
                   <Sun className="w-6 h-6" style={{ color: '#E9E7E5' }} />
                 </div>
                 <div className="flex-1">
@@ -43,7 +43,7 @@ const SleepWakeIndicator = () => {
             {/* Sleep Card */}
             <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-warm-brown/20 shadow-lg">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-warm-green rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#738871' }}>
                   <Moon className="w-6 h-6" style={{ color: '#E9E7E5' }} />
                 </div>
                 <div className="flex-1">
