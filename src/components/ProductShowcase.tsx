@@ -35,8 +35,8 @@ const ProductShowcase = () => {
           </div>
           
           <div className="order-1 lg:order-2 flex items-center justify-center">
-            <div className="relative overflow-hidden rounded-xl w-4/5 h-80">
-              <img src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" alt="Lumytot device displaying moon and stars on nightstand next to sleeping child" className="w-full h-auto object-cover" style={{transform: "translateY(-20%)"}} />
+            <div className="relative overflow-hidden rounded-xl w-4/5 h-96">
+              <img src="/lovable-uploads/1a3bf8d1-3952-4b4d-8971-dd6a1801ddff.png" alt="Lumytot device displaying moon and stars on nightstand next to sleeping child" className="w-full h-auto object-cover" style={{transform: "translateY(-15%)"}} />
             </div>
           </div>
         </div>
