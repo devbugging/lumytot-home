@@ -1,18 +1,12 @@
 import React from 'react';
 import { Instagram } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-warm-brown text-warm-cream py-16">
+  return <footer className="bg-warm-brown text-warm-cream py-16">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img 
-                src="/lumytot-logo-2.png" 
-                alt="Lumytot Logo" 
-                className="h-8 w-auto"
-              />
+              <img src="/lumytot-logo-2.png" alt="Lumytot Logo" className="h-8 w-auto" />
               
             </div>
             <p className="text-warm-cream/80 text-sm leading-relaxed">
@@ -22,6 +16,15 @@ const Footer = () => {
           
           <div></div>
           
+          <div>
+            
+            <ul className="space-y-2 text-sm text-warm-cream/80">
+              <li><a href="#" className="hover:text-warm-cream transition-colors">Help Center</a></li>
+              <li><a href="#" className="hover:text-warm-cream transition-colors">Sleep Tips</a></li>
+              <li><a href="#" className="hover:text-warm-cream transition-colors">Contact Us</a></li>
+              <li><a href="#" className="hover:text-warm-cream transition-colors">Warranty</a></li>
+            </ul>
+          </div>
           
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
@@ -49,8 +52,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
