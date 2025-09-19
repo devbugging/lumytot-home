@@ -7,7 +7,7 @@ const SmartSolutions = () => {
             Everything you need. Nothing you don't.
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">The toddler sleep clock with no buttons to press.</h2>
-          <p className="text-lg text-custom max-w-3xl mx-auto">Designed by parents for parents, Lumytot helps establish healthy sleep routines for your little ones.</p>
+          <p className="text-lg text-custom max-w-3xl mx-auto">Designed by parents for parents, Lumy•tot makes sleep routines simple. One light, zero buttons, all controlled in the app.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-12 items-start lg:grid-cols-[1fr_1fr_1fr] lg:max-w-none lg:mx-0">
