@@ -15,7 +15,9 @@ const ProductShowcase = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Built for Toddlers.
               <br />
-              <span style={{ color: '#738871' }}>Simplified for Parents.</span>
+              <span style={{
+              color: '#738871'
+            }}>Simplified for Parents.</span>
             </h2>
             
             
@@ -26,7 +28,7 @@ const ProductShowcase = () => {
             <br /><span className="text-header-button">✓</span> Just one glowing cue to make sleep routines easier (for everyone).
             </p>
             
-            <p className="text-custom leading-relaxed">Elegant design meets everyday chaos. Lumytot blends smart sleep tech with whisper-quiet magic to help your little one rest better, and maybe even give you a break. It's super easy to set up, a breeze to maintain, and made to fit right into your family's beautifully messy routine.</p>
+            <p className="text-custom leading-relaxed">Lumytot bkends smart sleep tech with simple, child-friendly design. Is's quick to set up, and effortless to use. With Lumy•tot bedtime routines become calmer, clearer, and easier  for the whole family.</p>
             
             
             <div className="pt-6">
