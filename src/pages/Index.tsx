@@ -8,7 +8,7 @@ import Benefits from '@/components/Benefits';
 import ProductShowcase from '@/components/ProductShowcase';
 import Testimonials from '@/components/Testimonials';
 import InstagramBanner from '@/components/InstagramBanner';
-import ProductDetails from '@/components/ProductDetails';
+
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -24,7 +24,7 @@ const Index = () => {
       <ProductShowcase />
       <InstagramBanner />
       <Testimonials />
-      <ProductDetails />
+      
       <Footer />
     </div>
   );
