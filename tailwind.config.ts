@@ -54,6 +54,8 @@ export default {
         warm: {
           orange: "hsl(var(--warm-orange))",
           brown: "hsl(var(--warm-brown))",
+          green: "hsl(var(--warm-green))",
+          beige: "hsl(var(--warm-beige))",
           cream: "hsl(var(--warm-cream))",
           peach: "hsl(var(--soft-peach))",
         },
