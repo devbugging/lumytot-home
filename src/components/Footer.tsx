@@ -22,9 +22,6 @@ const Footer = () => {
           
           <div></div>
           
-          <div>
-            <h4 className="font-semibold mb-4">Here for you</h4>
-          </div>
           
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
