@@ -6,7 +6,7 @@ const SmartSolutions = () => {
           <div className="text-sm text-custom mb-4 tracking-wider uppercase">
             LUMYTOT
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Designed for real families, built for real sleep.</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">The toddler sleep clock with no buttons to press.</h2>
           <p className="text-lg text-custom max-w-3xl mx-auto">Designed by parents for parents, Lumytot helps establish healthy sleep routines for your little ones.</p>
         </div>
 
