@@ -14,7 +14,7 @@ const SmartSolutions = () => {
           {/* Sun/Moon Light Indicator */}
           <div className="relative">
             <div className="w-full max-w-md h-[28rem] mx-auto bg-feature-card-bg rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
-              <div className="w-full h-56 rounded-t-full overflow-hidden">
+              <div className="w-full h-72 rounded-t-full overflow-hidden">
                 <img src="/lovable-uploads/2a88ee1a-9c82-4a4e-a708-68496056eab9.png" alt="Mother and child enjoying Lumytot together" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
@@ -31,7 +31,7 @@ const SmartSolutions = () => {
           {/* Sleep Tips and Reminders */}
           <div className="relative">
             <div className="w-full max-w-md h-[28rem] mx-auto bg-feature-card-bg rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
-              <div className="w-full h-56 rounded-t-full overflow-hidden pt-8">
+              <div className="w-full h-72 rounded-t-full overflow-hidden pt-8">
                 <img src="/lovable-uploads/sleep-app-mockup.png" alt="Lumytot app showing sleep tips and reminders" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
@@ -48,7 +48,7 @@ const SmartSolutions = () => {
           {/* Timers and Lights */}
           <div className="relative">
             <div className="w-full max-w-md h-[28rem] mx-auto bg-feature-card-bg rounded-t-full flex flex-col items-center justify-between overflow-hidden shadow-lg">
-              <div className="w-full h-56 rounded-t-full overflow-hidden">
+              <div className="w-full h-72 rounded-t-full overflow-hidden">
                 <img src="/lovable-uploads/timer-schedule-mockup.png" alt="Hands holding phone with Lumytot timer and schedule interface" className="w-full h-full object-cover" />
               </div>
               <div className="text-center p-6">
