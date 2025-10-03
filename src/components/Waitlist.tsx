@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
+import { Baby } from 'lucide-react';
 const Waitlist = () => {
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -90,7 +91,7 @@ const Waitlist = () => {
             <p className="text-custom leading-relaxed">Be the first to know! We're putting the final touches on Lumytot, a smarter, gentler sleep trainer for toddlers. Sign up to be the first to hear when Lumytot is ready. Perfect for parents looking to build better sleep routines, effortlessly.</p>
             
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <span>👶</span>
+              <Baby className="w-5 h-5" style={{ color: '#738871' }} />
               <span className="text-custom">No spam. Just sweet dreams.</span>
             </div>
           </div>
