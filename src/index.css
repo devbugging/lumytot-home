@@ -161,13 +161,53 @@ All colors MUST be HSL.
   @keyframes pulse-gentle {
     0%, 100% {
       transform: scale(1.1);
+      filter: brightness(1);
     }
     50% {
       transform: scale(1.15);
+      filter: brightness(1.2);
+    }
+  }
+
+  @keyframes glow-sun {
+    0%, 100% {
+      box-shadow:
+        0 0 40px rgba(255, 209, 102, 0.6),
+        0 0 80px rgba(255, 209, 102, 0.3),
+        0 0 120px rgba(255, 209, 102, 0.2);
+    }
+    50% {
+      box-shadow:
+        0 0 50px rgba(255, 209, 102, 0.8),
+        0 0 100px rgba(255, 209, 102, 0.5),
+        0 0 150px rgba(255, 209, 102, 0.3);
+    }
+  }
+
+  @keyframes glow-moon {
+    0%, 100% {
+      box-shadow:
+        0 0 40px rgba(115, 136, 113, 0.6),
+        0 0 80px rgba(115, 136, 113, 0.3),
+        0 0 120px rgba(115, 136, 113, 0.2);
+    }
+    50% {
+      box-shadow:
+        0 0 50px rgba(115, 136, 113, 0.8),
+        0 0 100px rgba(115, 136, 113, 0.5),
+        0 0 150px rgba(115, 136, 113, 0.3);
     }
   }
 
   .animate-pulse-gentle {
     animation: pulse-gentle 3s ease-in-out infinite;
+  }
+
+  .animate-glow-sun {
+    animation: glow-sun 3s ease-in-out infinite;
+  }
+
+  .animate-glow-moon {
+    animation: glow-moon 3s ease-in-out infinite;
   }
 }

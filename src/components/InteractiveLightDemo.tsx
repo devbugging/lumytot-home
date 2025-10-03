@@ -29,15 +29,12 @@ const InteractiveLightDemo = () => {
               <button
                 onClick={() => setActiveMode('sun')}
                 className={`relative rounded-full transition-all duration-500 transform hover:scale-105 ${
-                  activeMode === 'sun' ? 'scale-110 animate-pulse-gentle' : 'scale-100'
+                  activeMode === 'sun' ? 'scale-110 animate-pulse-gentle animate-glow-sun' : 'scale-100'
                 }`}
                 style={{
                   width: '120px',
                   height: '120px',
                   backgroundColor: activeMode === 'sun' ? '#FFD166' : '#E9E7E5',
-                  boxShadow: activeMode === 'sun'
-                    ? '0 0 40px rgba(255, 209, 102, 0.6), 0 0 80px rgba(255, 209, 102, 0.3)'
-                    : '0 4px 6px rgba(0, 0, 0, 0.1)',
                 }}
               >
                 <Sun
@@ -53,15 +50,12 @@ const InteractiveLightDemo = () => {
               <button
                 onClick={() => setActiveMode('moon')}
                 className={`relative rounded-full transition-all duration-500 transform hover:scale-105 ${
-                  activeMode === 'moon' ? 'scale-110 animate-pulse-gentle' : 'scale-100'
+                  activeMode === 'moon' ? 'scale-110 animate-pulse-gentle animate-glow-moon' : 'scale-100'
                 }`}
                 style={{
                   width: '120px',
                   height: '120px',
                   backgroundColor: activeMode === 'moon' ? '#738871' : '#E9E7E5',
-                  boxShadow: activeMode === 'moon'
-                    ? '0 0 40px rgba(115, 136, 113, 0.6), 0 0 80px rgba(115, 136, 113, 0.3)'
-                    : '0 4px 6px rgba(0, 0, 0, 0.1)',
                 }}
               >
                 <Moon
