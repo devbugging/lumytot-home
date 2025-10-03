@@ -16,9 +16,9 @@ const SleepWakeIndicator = () => {
         </div>
 
         {/* Main Grid */}
-        <div className="grid lg:grid-cols-5 gap-8 items-center">
-          {/* Image - Takes 2 columns */}
-          <div className="lg:col-span-2">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
+          {/* Image */}
+          <div>
             <img
               src="/lovable-uploads/f696386d-f583-48db-ad2a-c9022393e240.png"
               alt="Child sleeping peacefully with Lumytot nightlight on bedside table"
@@ -26,12 +26,12 @@ const SleepWakeIndicator = () => {
             />
           </div>
 
-          {/* Content - Takes 3 columns */}
-          <div className="lg:col-span-3 space-y-8">
+          {/* Content */}
+          <div className="space-y-8">
             {/* Introduction */}
             <div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it shows children when it's time to sleep and when it's time to wake. Toddlers can't read the clock, but they instinctively respond to light.
+                Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it shows children when it's time to sleep and when it's time to wake. Toddlers can't read the clock, but they instinctively respond to light. By pairing light with daily routines, Lumytot gives toddlers a clear signal of what comes next—making mornings smoother, bedtimes calmer, and family life more predictable.
               </p>
             </div>
 
@@ -58,13 +58,6 @@ const SleepWakeIndicator = () => {
                   Soft light helps release melatonin. The calming glow creates a peaceful atmosphere for rest.
                 </p>
               </div>
-            </div>
-
-            {/* Bottom Summary */}
-            <div>
-              <p className="text-lg text-warm-brown font-medium leading-relaxed">
-                By pairing light with daily routines, Lumytot gives toddlers a clear signal of what comes next—making mornings smoother, bedtimes calmer, and family life more predictable.
-              </p>
             </div>
           </div>
         </div>
