@@ -39,7 +39,7 @@ const SleepWakeIndicator = () => {
             <div className="grid md:grid-cols-2 gap-6">
               {/* Sun Card */}
               <div className="bg-white rounded-3xl p-8 border-2 border-warm-green/10">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-4" style={{ backgroundColor: '#FFD166' }}>
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: '#FFD166' }}>
                   <Sun className="w-8 h-8" style={{ color: '#F4A261' }} />
                 </div>
                 <h3 className="text-2xl font-bold text-warm-brown mb-3">Wake up</h3>
@@ -50,7 +50,7 @@ const SleepWakeIndicator = () => {
 
               {/* Moon Card */}
               <div className="bg-white rounded-3xl p-8 border-2 border-warm-green/10">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-4" style={{ backgroundColor: '#738871' }}>
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: '#738871' }}>
                   <Moon className="w-8 h-8" style={{ color: '#E9E7E5' }} />
                 </div>
                 <h3 className="text-2xl font-bold text-warm-brown mb-3">Sleep time</h3>
