@@ -17,10 +17,10 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <Hero />
+      <InteractiveLightDemo />
       <WhatIsLumytot />
       <SmartSolutions />
       <SleepWakeIndicator />
-      <InteractiveLightDemo />
       <Waitlist />
       <Benefits />
       <ProductShowcase />
