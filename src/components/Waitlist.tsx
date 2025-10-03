@@ -14,6 +14,23 @@ const Waitlist = () => {
     setIsLoading(true);
 
     try {
+      // Get IP and country information
+      let ipAddress = '';
+      let country = '';
+
+      try {
+        const ipResponse = await fetch('https://api.ipify.org?format=json');
+        const ipData = await ipResponse.json();
+        ipAddress = ipData.ip;
+
+        // Get country from IP
+        const geoResponse = await fetch(`https://ipapi.co/${ipAddress}/json/`);
+        const geoData = await geoResponse.json();
+        country = geoData.country_name || '';
+      } catch (geoError) {
+        console.error('Error fetching geo data:', geoError);
+      }
+
       const response = await fetch('https://api.freewaitlists.com/waitlists/cmgajbcph0004ns01rv7rey3q', {
         method: 'POST',
         headers: {
@@ -23,7 +40,9 @@ const Waitlist = () => {
           email: email,
           meta: {
             name: '',
-            source: 'landing-page'
+            source: 'landing-page',
+            ip: ipAddress,
+            country: country
           }
         })
       });
