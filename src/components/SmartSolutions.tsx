@@ -1,13 +1,16 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 const SmartSolutions = () => {
+  const { t } = useTranslation();
   return <section className="py-32 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
           <div className="text-sm text-custom mb-4 tracking-wider uppercase">
-            Everything you need. Nothing you don't.
+            {t('smartSolutions.badge')}
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">The toddler sleep clock with no buttons to press.</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Designed by parents for parents, Lumy•tot makes sleep routines simple. <br/>One light, zero buttons, all controlled in the app.</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('smartSolutions.title')}</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t('smartSolutions.subtitle')}</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-12 items-start lg:grid-cols-[1fr_1fr_1fr] lg:max-w-none lg:mx-0">
@@ -19,10 +22,10 @@ const SmartSolutions = () => {
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Sun/Moon Light Indicator
+                  {t('smartSolutions.sunMoon.title')}
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed h-16">
-                  A gentle dimmable light that keeps the room calm while teaching your child when to sleep and wake.
+                  {t('smartSolutions.sunMoon.description')}
                 </p>
               </div>
             </div>
@@ -36,10 +39,10 @@ const SmartSolutions = () => {
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Sleep Tips and Reminders
+                  {t('smartSolutions.tips.title')}
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed h-16">
-                  Helpful suggestions and wind-down reminders to establish a calming bedtime routine for your child.
+                  {t('smartSolutions.tips.description')}
                 </p>
               </div>
             </div>
@@ -53,10 +56,10 @@ const SmartSolutions = () => {
               </div>
               <div className="text-center p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Custom Schedules
+                  {t('smartSolutions.schedules.title')}
                 </h3>
                 <p className="text-base text-muted-foreground leading-relaxed h-16">
-                  Easily set day/night and nap times through our intuitive app, creating a consistent schedule.
+                  {t('smartSolutions.schedules.description')}
                 </p>
               </div>
             </div>
