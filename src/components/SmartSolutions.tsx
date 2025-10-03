@@ -1,6 +1,6 @@
 import React from 'react';
 const SmartSolutions = () => {
-  return <section className="py-20 bg-background">
+  return <section className="py-32 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
           <div className="text-sm text-custom mb-4 tracking-wider uppercase">
