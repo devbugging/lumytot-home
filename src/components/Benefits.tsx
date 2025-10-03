@@ -43,11 +43,11 @@ const Benefits = () => {
                 {benefit.icon}
               </div>
               
-              <h3 className="font-semibold text-foreground mb-3 text-sm leading-tight">
+              <h3 className="font-semibold text-foreground mb-3 text-lg leading-tight">
                 {benefit.title}
               </h3>
-              
-              <p className="text-muted-foreground text-xs leading-relaxed">
+
+              <p className="text-muted-foreground text-base leading-relaxed">
                 {benefit.description}
               </p>
             </div>)}
