@@ -44,7 +44,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-4">
-                <a href="#" className="text-warm-cream/60 hover:text-warm-cream transition-colors">
+                <a href="https://www.instagram.com/lumytot/" target="_blank" rel="noopener noreferrer" className="text-warm-cream/60 hover:text-warm-cream transition-colors">
                   <Instagram size={20} />
                 </a>
               </div>
