@@ -3,7 +3,9 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
 import { Baby } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 const Waitlist = () => {
+  const { t } = useTranslation();
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const {
@@ -54,15 +56,15 @@ const Waitlist = () => {
       setIsLoading(false);
       setEmail('');
       toast({
-        title: "You're on the list! 🎉",
-        description: "We'll notify you when Lumytot is available. Welcome to the family!"
+        title: t('waitlist.successTitle'),
+        description: t('waitlist.successDesc')
       });
     } catch (error) {
       console.error('Error joining waitlist:', error);
       setIsLoading(false);
       toast({
-        title: "Oops!",
-        description: "Something went wrong. Please try again.",
+        title: t('waitlist.errorTitle'),
+        description: t('waitlist.errorDesc'),
         variant: "destructive"
       });
     }
@@ -77,22 +79,22 @@ const Waitlist = () => {
           
           {/* Right side - Waitlist form */}
           <div className="order-1 lg:order-2 space-y-6 bg-waitlist-bg p-8 lg:p-12 lg:pl-20 h-full flex flex-col justify-center rounded-r-2xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Don't miss out - join the waitlist!</h2>
-            
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">{t('waitlist.title')}</h2>
+
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
-              <Input type="email" placeholder="Enter your email address" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 h-12 px-4 bg-background border-border/50 focus:border-primary transition-colors" required />
+              <Input type="email" placeholder={t('waitlist.placeholder')} value={email} onChange={e => setEmail(e.target.value)} className="flex-1 h-12 px-4 bg-background border-border/50 focus:border-primary transition-colors" required />
               <Button type="submit" variant="warm" size="lg" disabled={isLoading} className="h-12 px-8 whitespace-nowrap" style={{
               backgroundColor: '#738871'
             }}>
-                {isLoading ? 'Joining...' : 'Join Waitlist'}
+                {isLoading ? t('waitlist.buttonLoading') : t('waitlist.button')}
               </Button>
             </form>
-            
-            <p className="text-custom leading-relaxed">Be the first to know! We're putting the final touches on Lumytot, a smarter, gentler sleep trainer for toddlers. Sign up to be the first to hear when Lumytot is ready. Perfect for parents looking to build better sleep routines, effortlessly.</p>
-            
+
+            <p className="text-custom leading-relaxed">{t('waitlist.description')}</p>
+
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Baby className="w-5 h-5" style={{ color: '#738871' }} />
-              <span className="text-custom">No spam. Just sweet dreams.</span>
+              <span className="text-custom">{t('waitlist.disclaimer')}</span>
             </div>
           </div>
         </div>

@@ -1,37 +1,39 @@
 import React from 'react';
 import { Clock, Moon, Heart, TrendingUp } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 const Benefits = () => {
+  const { t } = useTranslation();
   const benefits = [{
     icon: <Clock className="w-6 h-6" style={{
       color: '#738871'
     }} />,
-    title: "Cognitive Development",
-    description: "Quality sleep is essential for brain development, memory consolidation, and learning in growing children."
+    title: t('benefits.cognitive.title'),
+    description: t('benefits.cognitive.description')
   }, {
     icon: <Moon className="w-6 h-6" style={{
       color: '#738871'
     }} />,
-    title: "Better Mood and Behavior",
-    description: "Well-rested children show improved emotional regulation, better social skills, and increased empathy."
+    title: t('benefits.mood.title'),
+    description: t('benefits.mood.description')
   }, {
     icon: <Heart className="w-6 h-6" style={{
       color: '#738871'
     }} />,
-    title: "Stronger Immune System",
-    description: "Adequate sleep strengthens the immune system, helping children fight off illnesses and stay healthy."
+    title: t('benefits.immune.title'),
+    description: t('benefits.immune.description')
   }, {
     icon: <TrendingUp className="w-6 h-6" style={{
       color: '#738871'
     }} />,
-    title: "Support for Healthy Growth",
-    description: "Growth hormone is primarily released during deep sleep, making quality rest crucial for physical development."
+    title: t('benefits.growth.title'),
+    description: t('benefits.growth.description')
   }];
   return <section id="benefits" className="py-20 bg-background">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">The benefits of quality sleep for your child</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{t('benefits.title')}</h2>
           <p className="text-custom max-w-2xl mx-auto">
-            Scientific research shows that healthy sleep patterns are fundamental to your child's overall development and well-being.
+            {t('benefits.subtitle')}
           </p>
         </div>
         

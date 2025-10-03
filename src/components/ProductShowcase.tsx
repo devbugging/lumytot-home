@@ -1,7 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 // import deviceImage from '@/assets/lumytot-device.jpg';
 
 const ProductShowcase = () => {
+  const { t } = useTranslation();
   const features = ["Elegant Design Meets Daily Function", "Sleep cycle optimization technology", "Whisper-quiet operation", "Easy setup and maintenance"];
   return <section className="py-20" style={{ backgroundColor: '#738871' }}>
       <div className="container mx-auto px-6 md:px-8">
@@ -10,26 +12,26 @@ const ProductShowcase = () => {
             <div className="inline-block px-4 py-2 rounded-full text-sm font-medium" style={{
             color: '#738871',
             backgroundColor: '#E9E7E5'
-          }}>RESEARCH & DESIGN</div>
+          }}>{t('productShowcase.badge')}</div>
 
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#E9E7E5' }}>
-              Built for Toddlers.
+              {t('productShowcase.title')}
               <br />
               <span style={{
               color: '#FFD166'
-            }}>Simplified for Parents.</span>
+            }}>{t('productShowcase.titleAccent')}</span>
             </h2>
 
 
 
-            <p className="leading-relaxed" style={{ color: '#E9E7E5' }}>Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos:
-            <br /><span style={{ color: '#FFD166' }}>✓</span> No buttons to mash or break
-            <br /><span style={{ color: '#FFD166' }}>✓</span> Adjustable brightness that won't overstimulate
-            <br /><span style={{ color: '#FFD166' }}>✓</span> One clear light cue toddlers instantly understand
-            <br /><span style={{ color: '#FFD166' }}>✓</span> All controlled in the app — easy for parents
+            <p className="leading-relaxed" style={{ color: '#E9E7E5' }}>{t('productShowcase.description')}
+            <br /><span style={{ color: '#FFD166' }}>✓</span> {t('productShowcase.features.noButtons')}
+            <br /><span style={{ color: '#FFD166' }}>✓</span> {t('productShowcase.features.brightness')}
+            <br /><span style={{ color: '#FFD166' }}>✓</span> {t('productShowcase.features.clearCue')}
+            <br /><span style={{ color: '#FFD166' }}>✓</span> {t('productShowcase.features.appControl')}
             </p>
 
-            <p className="leading-relaxed" style={{ color: '#E9E7E5' }}>Lumytot blends smart sleep tech with simple, child-friendly design. Is's quick to set up, and effortless to use. With Lumy•tot bedtime routines become calmer, clearer, and easier  for the whole family.</p>
+            <p className="leading-relaxed" style={{ color: '#E9E7E5' }}>{t('productShowcase.conclusion')}</p>
 
 
           </div>
