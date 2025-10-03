@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Arimo', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -51,11 +54,15 @@ export default {
         warm: {
           orange: "hsl(var(--warm-orange))",
           brown: "hsl(var(--warm-brown))",
+          green: "hsl(var(--warm-green))",
+          beige: "hsl(var(--warm-beige))",
           cream: "hsl(var(--warm-cream))",
           peach: "hsl(var(--soft-peach))",
         },
         "text-custom": "hsl(var(--text-custom))",
+        "header-button": "hsl(var(--header-button))",
         "waitlist-bg": "hsl(var(--waitlist-bg))",
+        "feature-card-bg": "hsl(var(--feature-card-bg))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

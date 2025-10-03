@@ -1,0 +1,64 @@
+import React from 'react';
+import { Sun, Moon } from 'lucide-react';
+
+const SleepWakeIndicator = () => {
+  return (
+    <section className="py-16 bg-gradient-warm">
+      <div className="container mx-auto px-6 md:px-8">
+        <div className="max-w-none">{/* Removed max-w-6xl constraint */}
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-warm-brown">
+              Why light cues work for toddlers?
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Toddlers can't read the clock, but they instinctively respond to light. Our bodies follow a natural circadian rhythm, which is guided by changes in light and darkness.
+            </p>
+          </div>
+
+          {/* Cards Container - Full Width 3 Columns */}
+          <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-6">
+            {/* Wake Up Card */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-warm-orange/20 shadow-lg">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#738871' }}>
+                  <Sun className="w-6 h-6" style={{ color: '#E9E7E5' }} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-semibold text-warm-brown mb-3">Sunlight means wake up</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Bright light signals to the brain that it's morning. Energy levels rise, and the body is ready to start the day.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Summary Card - Middle */}
+            <div className="rounded-2xl p-8 border border-warm-green/30" style={{ backgroundColor: '#E9E7E5' }}>
+              <p className="text-custom leading-relaxed">
+                By pairing light with daily routines, Lumytot gives toddlers a clear signal of what comes next—making mornings smoother, bedtimes calmer, and family life more predictable.
+              </p>
+            </div>
+
+            {/* Sleep Card */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-warm-brown/20 shadow-lg">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#738871' }}>
+                  <Moon className="w-6 h-6" style={{ color: '#E9E7E5' }} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-semibold text-warm-brown mb-3">Dim light means sleep</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Soft, gentle light helps the brain release melatonin, the hormone that makes us feel sleepy and ready for rest.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SleepWakeIndicator;

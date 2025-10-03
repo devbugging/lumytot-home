@@ -1,19 +1,13 @@
 import React from 'react';
 import { Instagram } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-warm-brown text-warm-cream py-16">
+  return <footer className="bg-warm-brown text-warm-cream py-16">
       <div className="container mx-auto px-6 md:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img 
-                src="/lovable-uploads/e408984a-a4b7-4ab5-95f5-0cf6289b8a79.png" 
-                alt="Lumytot Logo" 
-                className="w-8 h-8 rounded-lg"
-              />
-              <span className="text-xl font-bold">Lumytot</span>
+              <img src="/lumytot-logo-2.png" alt="Lumytot Logo" className="h-8 w-auto" />
+              
             </div>
             <p className="text-warm-cream/80 text-sm leading-relaxed">
               Smart sleep solutions designed to help your little ones get the rest they need for healthy growth and development.
@@ -23,7 +17,7 @@ const Footer = () => {
           <div></div>
           
           <div>
-            <h4 className="font-semibold mb-4">Here for you</h4>
+            
             <ul className="space-y-2 text-sm text-warm-cream/80">
               <li><a href="#" className="hover:text-warm-cream transition-colors">Help Center</a></li>
               <li><a href="#" className="hover:text-warm-cream transition-colors">Sleep Tips</a></li>
@@ -58,8 +52,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

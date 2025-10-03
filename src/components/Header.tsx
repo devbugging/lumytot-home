@@ -1,5 +1,12 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { Globe } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -7,11 +14,11 @@ const Header = () => {
       <div className="container mx-auto px-6 md:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img 
-            src="/lovable-uploads/e408984a-a4b7-4ab5-95f5-0cf6289b8a79.png" 
+            src="/lumytot-logo-green.png" 
             alt="Lumytot Logo" 
-            className="w-8 h-8 rounded-lg"
+            className="h-8 w-auto"
           />
-          <span className="text-xl font-bold text-foreground">Lumytot</span>
+          
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
@@ -29,17 +36,36 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button 
-          variant="warm" 
-          size="sm"
-          onClick={() => {
-            document.getElementById('waitlist')?.scrollIntoView({ 
-              behavior: 'smooth' 
-            });
-          }}
-        >
-          Yes, I Need Sleep!
-        </Button>
+        <div className="flex items-center space-x-4">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="sm" className="flex items-center space-x-2">
+                <Globe className="w-4 h-4" />
+                <span className="hidden sm:inline">EN</span>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-background border border-border shadow-lg z-50">
+              <DropdownMenuItem className="cursor-pointer hover:bg-muted">
+                🇺🇸 English
+              </DropdownMenuItem>
+              <DropdownMenuItem className="cursor-pointer hover:bg-muted">
+                🇸🇮 Slovenščina
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <Button 
+            variant="warm" 
+            size="sm"
+            onClick={() => {
+              document.getElementById('waitlist')?.scrollIntoView({ 
+                behavior: 'smooth' 
+              });
+            }}
+          >
+            Yes, I Need Sleep!
+          </Button>
+        </div>
       </div>
     </header>
   );

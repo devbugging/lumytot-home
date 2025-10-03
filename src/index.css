@@ -8,35 +8,39 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 32 45% 97%;
-    --foreground: 25 25% 15%;
+    --background: 0 0% 98%;
+    --foreground: 0 0% 15%;
 
-    --card: 35 50% 98%;
-    --card-foreground: 25 25% 15%;
+    --card: 0 0% 99%;
+    --card-foreground: 0 0% 15%;
 
-    --popover: 35 50% 98%;
-    --popover-foreground: 25 25% 15%;
+    --popover: 0 0% 99%;
+    --popover-foreground: 0 0% 15%;
 
-    --primary: 261 26% 51%;
-    --primary-foreground: 35 50% 98%;
-    --primary-glow: 261 26% 51%;
+    --primary: 92 21% 46%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 92 21% 54%;
 
-    --secondary: 32 35% 92%;
-    --secondary-foreground: 25 25% 25%;
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 25%;
 
-    --muted: 32 25% 90%;
+    --muted: 0 0% 92%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 38 70% 88%;
-    --accent-foreground: 25 25% 20%;
+    --accent: 0 0% 90%;
+    --accent-foreground: 0 0% 20%;
 
-    --warm-orange: 261 26% 51%;
+    --warm-orange: 92 21% 46%;
     --warm-brown: 0 0% 24%;
+    --warm-green: 92 21% 46%;
+    --warm-beige: 42 60% 95%;
     --warm-cream: 42 60% 95%;
     --soft-peach: 28 75% 85%;
     --gentle-brown: 25 25% 35%;
     --text-custom: 0 0% 24%;
-    --waitlist-bg: 282 30% 93%;
+    --header-button: 116 9% 49%;
+    --waitlist-bg: 35 8% 91%;
+    --feature-card-bg: 35 8% 91%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 35 50% 98%;
@@ -49,8 +53,8 @@ All colors MUST be HSL.
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(32 85% 65% / 0.9), hsl(28 75% 70% / 0.8));
-    --gradient-warm: linear-gradient(180deg, hsl(35 50% 98%), hsl(32 35% 92%));
-    --gradient-card: linear-gradient(145deg, hsl(35 50% 98%), hsl(32 25% 95%));
+    --gradient-warm: linear-gradient(180deg, hsl(0 0% 99%), hsl(0 0% 94%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 99%), hsl(0 0% 96%));
 
     /* Shadows */
     --shadow-warm: 0 10px 30px -10px hsl(32 85% 65% / 0.2);
@@ -88,9 +92,9 @@ All colors MUST be HSL.
     --popover: 25 25% 12%;
     --popover-foreground: 35 50% 95%;
 
-    --primary: 261 26% 51%;
-    --primary-foreground: 25 25% 8%;
-    --primary-glow: 261 26% 51%;
+    --primary: 92 21% 46%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 92 21% 54%;
 
     --secondary: 25 15% 20%;
     --secondary-foreground: 35 50% 95%;
@@ -101,12 +105,15 @@ All colors MUST be HSL.
     --accent: 25 15% 22%;
     --accent-foreground: 35 50% 95%;
 
-    --warm-orange: 261 26% 51%;
+    --warm-orange: 92 21% 46%;
     --warm-brown: 0 0% 24%;
+    --warm-green: 92 21% 46%;
+    --warm-beige: 35 30% 85%;
     --warm-cream: 35 30% 85%;
     --soft-peach: 28 60% 75%;
     --gentle-brown: 35 50% 85%;
     --text-custom: 0 0% 24%;
+    --header-button: 116 9% 49%;
     --waitlist-bg: 282 30% 93%;
 
     --destructive: 0 75% 55%;
