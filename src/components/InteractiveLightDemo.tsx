@@ -46,9 +46,9 @@ const InteractiveLightDemo = () => {
                 style={{
                   width: '120px',
                   height: '120px',
-                  backgroundColor: activeMode === 'moon' ? '#7562A4' : '#E9E7E5',
+                  backgroundColor: activeMode === 'moon' ? '#738871' : '#E9E7E5',
                   boxShadow: activeMode === 'moon'
-                    ? '0 0 40px rgba(117, 98, 164, 0.6), 0 0 80px rgba(117, 98, 164, 0.3)'
+                    ? '0 0 40px rgba(115, 136, 113, 0.6), 0 0 80px rgba(115, 136, 113, 0.3)'
                     : '0 4px 6px rgba(0, 0, 0, 0.1)',
                 }}
               >
