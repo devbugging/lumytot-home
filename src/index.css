@@ -156,3 +156,18 @@ All colors MUST be HSL.
     @apply text-text-custom;
   }
 }
+
+@layer utilities {
+  @keyframes pulse-gentle {
+    0%, 100% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+  }
+
+  .animate-pulse-gentle {
+    animation: pulse-gentle 3s ease-in-out infinite;
+  }
+}

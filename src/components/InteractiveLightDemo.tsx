@@ -29,7 +29,7 @@ const InteractiveLightDemo = () => {
               <button
                 onClick={() => setActiveMode('sun')}
                 className={`relative rounded-full transition-all duration-500 transform hover:scale-105 ${
-                  activeMode === 'sun' ? 'scale-110' : 'scale-100'
+                  activeMode === 'sun' ? 'scale-110 animate-pulse-gentle' : 'scale-100'
                 }`}
                 style={{
                   width: '120px',
@@ -53,7 +53,7 @@ const InteractiveLightDemo = () => {
               <button
                 onClick={() => setActiveMode('moon')}
                 className={`relative rounded-full transition-all duration-500 transform hover:scale-105 ${
-                  activeMode === 'moon' ? 'scale-110' : 'scale-100'
+                  activeMode === 'moon' ? 'scale-110 animate-pulse-gentle' : 'scale-100'
                 }`}
                 style={{
                   width: '120px',
