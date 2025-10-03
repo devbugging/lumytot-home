@@ -3,10 +3,27 @@ import { Sun, Moon } from 'lucide-react';
 
 const SleepWakeIndicator = () => {
   return (
-    <section className="py-16 bg-gradient-warm">
+    <section id="what-is-lumytot" className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8">
-        <div className="max-w-none">{/* Removed max-w-6xl constraint */}
-          {/* Header */}
+        {/* Top Section - Image and Introduction */}
+        <div className="grid lg:grid-cols-2 gap-20 items-center mb-20">
+          <div className="order-2 lg:order-1">
+            <img src="/lovable-uploads/f696386d-f583-48db-ad2a-c9022393e240.png" alt="Child sleeping peacefully with Lumytot nightlight on bedside table" className="w-full h-auto rounded-2xl shadow-soft" />
+          </div>
+
+          <div className="order-1 lg:order-2 space-y-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">The clock your toddler understands.</h2>
+
+            <p className="text-lg md:text-xl text-muted-foreground/80 font-medium">No buttons. No noise. Just one glowing light that teaches your child healthy sleep routines</p>
+
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p>Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it shows children when it's time to sleep and when it's time to wake. No noisy alarms or confusing buttons, just calm and clear cues that fit naturally into your child's routine.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Section - Why Light Cues Work */}
+        <div className="max-w-none">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-warm-brown">
               Why light cues work for toddlers?

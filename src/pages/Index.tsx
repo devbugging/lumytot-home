@@ -1,6 +1,5 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import WhatIsLumytot from '@/components/WhatIsLumytot';
 import SmartSolutions from '@/components/SmartSolutions';
 import SleepWakeIndicator from '@/components/SleepWakeIndicator';
 import InteractiveLightDemo from '@/components/InteractiveLightDemo';
@@ -18,9 +17,8 @@ const Index = () => {
       <Header />
       <Hero />
       <InteractiveLightDemo />
-      <WhatIsLumytot />
-      <SmartSolutions />
       <SleepWakeIndicator />
+      <SmartSolutions />
       <Waitlist />
       <Benefits />
       <ProductShowcase />
