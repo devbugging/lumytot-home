@@ -13,15 +13,39 @@ const Waitlist = () => {
     if (!email) return;
     setIsLoading(true);
 
-    // Simulate API call
-    setTimeout(() => {
+    try {
+      const response = await fetch('https://api.freewaitlists.com/waitlists/cmgajbcph0004ns01rv7rey3q', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          meta: {
+            name: '',
+            source: 'landing-page'
+          }
+        })
+      });
+
+      const result = await response.json();
+      console.log(result);
+
       setIsLoading(false);
       setEmail('');
       toast({
         title: "You're on the list! 🎉",
         description: "We'll notify you when Lumytot is available. Welcome to the family!"
       });
-    }, 1000);
+    } catch (error) {
+      console.error('Error joining waitlist:', error);
+      setIsLoading(false);
+      toast({
+        title: "Oops!",
+        description: "Something went wrong. Please try again.",
+        variant: "destructive"
+      });
+    }
   };
   return <section id="waitlist" className="py-20">
       <div className="container mx-auto px-6 md:px-8">
