@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import WhatIsLumytot from '@/components/WhatIsLumytot';
 import SmartSolutions from '@/components/SmartSolutions';
 import SleepWakeIndicator from '@/components/SleepWakeIndicator';
+import InteractiveLightDemo from '@/components/InteractiveLightDemo';
 import Waitlist from '@/components/Waitlist';
 import Benefits from '@/components/Benefits';
 import ProductShowcase from '@/components/ProductShowcase';
@@ -19,12 +20,13 @@ const Index = () => {
       <WhatIsLumytot />
       <SmartSolutions />
       <SleepWakeIndicator />
+      <InteractiveLightDemo />
       <Waitlist />
       <Benefits />
       <ProductShowcase />
       <InstagramBanner />
       <Testimonials />
-      
+
       <Footer />
     </div>
   );
