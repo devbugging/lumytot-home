@@ -5,7 +5,7 @@ const Benefits = () => {
     icon: <Clock className="w-6 h-6" style={{
       color: '#738871'
     }} />,
-    title: "Improved Cognitive Development",
+    title: "Cognitive Development",
     description: "Quality sleep is essential for brain development, memory consolidation, and learning in growing children."
   }, {
     icon: <Moon className="w-6 h-6" style={{
