@@ -31,7 +31,7 @@ const SleepWakeIndicator = () => {
             {/* Introduction */}
             <div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it shows children when it's time to sleep and when it's time to wake. Toddlers can't read the clock, but they instinctively respond to light. By pairing light with daily routines, Lumytot gives toddlers a clear signal of what comes next—making mornings smoother, bedtimes calmer, and family life more predictable.
+                Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it teaches children when it's time to sleep and wake—making routines smoother and family life more predictable.
               </p>
             </div>
 
@@ -44,7 +44,7 @@ const SleepWakeIndicator = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-warm-brown mb-3">Wake up</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Bright light signals it's morning. Energy rises, and your toddler knows it's time to start the day.
+                  Bright light signals morning time. Your toddler knows it's okay to start the day.
                 </p>
               </div>
 
@@ -55,7 +55,7 @@ const SleepWakeIndicator = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-warm-brown mb-3">Sleep time</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Soft light helps release melatonin. The calming glow creates a peaceful atmosphere for rest.
+                  Soft light creates a calming atmosphere, helping your child wind down for rest.
                 </p>
               </div>
             </div>
