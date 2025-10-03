@@ -1,10 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Sun, Moon } from 'lucide-react';
 
 type Mode = 'sun' | 'moon';
 
 const InteractiveLightDemo = () => {
   const [activeMode, setActiveMode] = useState<Mode>('moon');
+  const [hasAutoSwitched, setHasAutoSwitched] = useState(false);
+
+  useEffect(() => {
+    if (!hasAutoSwitched) {
+      const timer = setTimeout(() => {
+        setActiveMode('sun');
+        setHasAutoSwitched(true);
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [hasAutoSwitched]);
 
   return (
     <section className="py-20 bg-white">
