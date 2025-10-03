@@ -1,7 +1,10 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Mouse } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+
 const Hero = () => {
+  const { t } = useTranslation();
   const scrollToWaitlist = () => {
     document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -21,19 +24,19 @@ const Hero = () => {
         <div className="absolute inset-4 bg-white/5 rounded-full blur-xl"></div>
         <div className="relative z-10 flex flex-col items-center h-full justify-center">
           <div className="mb-8 inline-block bg-white/10 backdrop-blur-md text-white px-4 py-2 rounded-full text-xs font-medium border border-white/20 shadow-lg">
-            NAPS. NIGHTS. SOLVED.
+            {t('hero.badge')}
           </div>
-          <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-white">A Sleep Trainer That Actually Works.</h1>
-          
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-white">{t('hero.title')}</h1>
+
           <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto leading-relaxed text-white">
-            The world's first nap-friendly sleep trainer. Lumytot makes nights restful and naps effortless, bringing peace to the whole family.
+            {t('hero.description')}
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" onClick={scrollToWaitlist} className="text-lg px-8 py-4 backdrop-blur-md border-white/30 text-white hover:opacity-80 transition-all duration-300" style={{
               backgroundColor: 'rgba(115, 136, 113, 0.4)'
             }}>
-              Join the Waiting List
+              {t('hero.cta')}
             </Button>
           </div>
           

@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "badge": "NAPS. NIGHTS. SOLVED.",
+    "title": "A Sleep Trainer That Actually Works.",
+    "description": "The world's first nap-friendly sleep trainer. Lumytot makes nights restful and naps effortless, bringing peace to the whole family.",
+    "cta": "Join the Waiting List"
+  },
+  "interactive": {
+    "wakeup": {
+      "title": "Wake-up time",
+      "description": "When the sun lights up, your toddler knows it's time to start the day. The warm, gentle glow signals that morning has arrived, helping them understand when it's okay to get out of bed. This simple visual cue builds confidence and independence, teaching healthy wake-up habits without confusion."
+    },
+    "sleep": {
+      "title": "Night time to sleep",
+      "description": "When the moon glows softly, it's a gentle reminder that bedtime is here. The calming light creates a peaceful atmosphere, helping your child wind down naturally. By consistently seeing the moon at night, toddlers learn to associate this visual cue with rest, making bedtime routines smoother and more predictable."
+    },
+    "instruction": "Click on the sun or moon to see how Lumytot guides your child's day"
+  },
+  "whatIsLumytot": {
+    "title": "The clock your toddler understands",
+    "subtitle": "No buttons. No noise. Just simple light cues that teach healthy sleep routines",
+    "intro": "Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it teaches children when it's time to sleep and wake—making routines smoother and family life more predictable.",
+    "sunTitle": "Wake up",
+    "sunDesc": "Bright light signals morning time. Your toddler knows it's okay to start the day.",
+    "moonTitle": "Sleep time",
+    "moonDesc": "Soft light creates a calming atmosphere, helping your child wind down for rest."
+  },
+  "smartSolutions": {
+    "badge": "Everything you need. Nothing you don't.",
+    "title": "The toddler sleep clock with no buttons to press.",
+    "subtitle": "Designed by parents for parents, Lumy•tot makes sleep routines simple. One light, zero buttons, all controlled in the app.",
+    "sunMoon": {
+      "title": "Sun/Moon Light Indicator",
+      "description": "A gentle dimmable light that keeps the room calm while teaching your child when to sleep and wake."
+    },
+    "tips": {
+      "title": "Sleep Tips and Reminders",
+      "description": "Helpful suggestions and wind-down reminders to establish a calming bedtime routine for your child."
+    },
+    "schedules": {
+      "title": "Custom Schedules",
+      "description": "Easily set day/night and nap times through our intuitive app, creating a consistent schedule."
+    }
+  },
+  "waitlist": {
+    "title": "Don't miss out - join the waitlist!",
+    "placeholder": "Enter your email address",
+    "button": "Join Waitlist",
+    "buttonLoading": "Joining...",
+    "description": "Be the first to know! We're putting the final touches on Lumytot, a smarter, gentler sleep trainer for toddlers. Sign up to be the first to hear when Lumytot is ready. Perfect for parents looking to build better sleep routines, effortlessly.",
+    "disclaimer": "No spam. Just sweet dreams.",
+    "successTitle": "You're on the list! 🎉",
+    "successDesc": "We'll notify you when Lumytot is available. Welcome to the family!",
+    "errorTitle": "Oops!",
+    "errorDesc": "Something went wrong. Please try again."
+  },
+  "benefits": {
+    "title": "The benefits of quality sleep for your child",
+    "subtitle": "Scientific research shows that healthy sleep patterns are fundamental to your child's overall development and well-being.",
+    "cognitive": {
+      "title": "Cognitive Development",
+      "description": "Quality sleep is essential for brain development, memory consolidation, and learning in growing children."
+    },
+    "mood": {
+      "title": "Better Mood and Behavior",
+      "description": "Well-rested children show improved emotional regulation, better social skills, and increased empathy."
+    },
+    "immune": {
+      "title": "Stronger Immune System",
+      "description": "Adequate sleep strengthens the immune system, helping children fight off illnesses and stay healthy."
+    },
+    "growth": {
+      "title": "Support for Healthy Growth",
+      "description": "Growth hormone is primarily released during deep sleep, making quality rest crucial for physical development."
+    }
+  },
+  "productShowcase": {
+    "badge": "RESEARCH & DESIGN",
+    "title": "Built for Toddlers.",
+    "titleAccent": "Simplified for Parents.",
+    "description": "Toddler-Proof. Parent-Approved. Lumytot is made for curious hands and bedtime chaos:",
+    "features": {
+      "noButtons": "No buttons to mash or break",
+      "brightness": "Adjustable brightness that won't overstimulate",
+      "clearCue": "One clear light cue toddlers instantly understand",
+      "appControl": "All controlled in the app — easy for parents"
+    },
+    "conclusion": "Lumytot blends smart sleep tech with simple, child-friendly design. Is's quick to set up, and effortless to use. With Lumy•tot bedtime routines become calmer, clearer, and easier  for the whole family."
+  },
+  "instagram": {
+    "title": "Join the Lumytot Community",
+    "subtitle": "Follow us on Instagram for sleep tips, parenting insights, and behind-the-scenes updates.",
+    "button": "Follow @lumytot"
+  },
+  "testimonials": {
+    "title": "What Parents Are Saying"
+  },
+  "footer": {
+    "description": "Smart sleep solutions designed to help your little ones get the rest they need for healthy growth and development.",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "sleepTips": "Sleep Tips",
+    "contact": "Contact Us",
+    "warranty": "Warranty",
+    "company": "Company",
+    "about": "About Us",
+    "mission": "Our Mission",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  }
+}

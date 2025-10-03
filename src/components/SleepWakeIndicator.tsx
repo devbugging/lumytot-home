@@ -1,17 +1,19 @@
 import React from 'react';
 import { Sun, Moon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const SleepWakeIndicator = () => {
+  const { t } = useTranslation();
   return (
     <section id="what-is-lumytot" className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-6 md:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-warm-brown">
-            The clock your toddler understands
+            {t('whatIsLumytot.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            No buttons. No noise. Just simple light cues that teach healthy sleep routines
+            {t('whatIsLumytot.subtitle')}
           </p>
         </div>
 
@@ -31,7 +33,7 @@ const SleepWakeIndicator = () => {
             {/* Introduction */}
             <div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Lumytot is a sleep clock designed for toddlers. With simple sun and moon lights, it teaches children when it's time to sleep and wake—making routines smoother and family life more predictable.
+                {t('whatIsLumytot.intro')}
               </p>
             </div>
 
@@ -42,9 +44,9 @@ const SleepWakeIndicator = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: '#FFD166' }}>
                   <Sun className="w-8 h-8" style={{ color: '#F4A261' }} />
                 </div>
-                <h3 className="text-2xl font-bold text-warm-brown mb-3">Wake up</h3>
+                <h3 className="text-2xl font-bold text-warm-brown mb-3">{t('whatIsLumytot.sunTitle')}</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Bright light signals morning time. Your toddler knows it's okay to start the day.
+                  {t('whatIsLumytot.sunDesc')}
                 </p>
               </div>
 
@@ -53,9 +55,9 @@ const SleepWakeIndicator = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: '#738871' }}>
                   <Moon className="w-8 h-8" style={{ color: '#E9E7E5' }} />
                 </div>
-                <h3 className="text-2xl font-bold text-warm-brown mb-3">Sleep time</h3>
+                <h3 className="text-2xl font-bold text-warm-brown mb-3">{t('whatIsLumytot.moonTitle')}</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Soft light creates a calming atmosphere, helping your child wind down for rest.
+                  {t('whatIsLumytot.moonDesc')}
                 </p>
               </div>
             </div>

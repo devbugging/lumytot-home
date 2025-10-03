@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "badge": "POČITKI. NOČI. REŠENO.",
+    "title": "Trener spanja, ki dejansko deluje.",
+    "description": "Prvi trener spanja na svetu, prijazen za dremanje. Lumytot omogoča mirne noči in preproste počitke ter prinaša mir vsej družini.",
+    "cta": "Pridruži se čakalni listi"
+  },
+  "interactive": {
+    "wakeup": {
+      "title": "Čas za vstajanje",
+      "description": "Ko se sonce prižge, vaš malček ve, da je čas za začetek dneva. Topel, nežen sijaj signalizira, da je jutro tu in jim pomaga razumeti, kdaj je v redu vstati iz postelje. Ta preprosta vizualna namig gradi samozavest in samostojnost ter uči zdrave navade vstajanja brez zmede."
+    },
+    "sleep": {
+      "title": "Nočni čas za spanje",
+      "description": "Ko luna nežno zasije, je to nežen opomnik, da je čas za spanje. Pomirjujoča svetloba ustvarja mirno vzdušje, ki otroku pomaga, da se naravno umiri. S konsistentnim opazovanjem lune ponoči se malčki naučijo povezovati ta vizualni namig z počitkom, kar naredi rutine pred spanjem bolj gladke in predvidljive."
+    },
+    "instruction": "Kliknite na sonce ali luno, da vidite, kako Lumytot vodi dan vašega otroka"
+  },
+  "whatIsLumytot": {
+    "title": "Ura, ki jo vaš malček razume",
+    "subtitle": "Brez gumbov. Brez hrupa. Samo preprosti svetlobni namigi, ki učijo zdrave navade spanja",
+    "intro": "Lumytot je ura za spanje, zasnovana za malčke. S preprostimi lučmi sonca in lune uči otroke, kdaj je čas za spanje in kdaj za vstajanje - kar naredi rutine bolj gladke in družinsko življenje bolj predvidljivo.",
+    "sunTitle": "Vstajanje",
+    "sunDesc": "Svetla svetloba signalizira jutranji čas. Vaš malček ve, da je v redu začeti dan.",
+    "moonTitle": "Čas za spanje",
+    "moonDesc": "Mehka svetloba ustvarja pomirjujoče vzdušje in pomaga vašemu otroku, da se umiri pred počitkom."
+  },
+  "smartSolutions": {
+    "badge": "Vse, kar potrebujete. Nič, česar ne.",
+    "title": "Ura za spanje za malčke brez gumbov za pritiskanje.",
+    "subtitle": "Zasnovano s strani staršev za starše, Lumy•tot naredi rutine spanja preproste. Ena luč, nič gumbov, vse nadzorovano v aplikaciji.",
+    "sunMoon": {
+      "title": "Indikator luči sonca/lune",
+      "description": "Nežna svetloba z možnostjo zatemnitve, ki ohranja sobo mirno, medtem ko uči vašega otroka, kdaj spati in kdaj vstati."
+    },
+    "tips": {
+      "title": "Nasveti za spanje in opomniki",
+      "description": "Koristni predlogi in opomniki za umiritev, ki pomagajo vzpostaviti pomirjujočo rutino pred spanjem za vašega otroka."
+    },
+    "schedules": {
+      "title": "Prilagojeni urniki",
+      "description": "Preprosto nastavite čase za dan/noč in dremež skozi našo intuitivno aplikacijo ter ustvarite konsistenten urnik."
+    }
+  },
+  "waitlist": {
+    "title": "Ne zamudite - pridružite se čakalni listi!",
+    "placeholder": "Vnesite svoj e-poštni naslov",
+    "button": "Pridruži se čakalni listi",
+    "buttonLoading": "Pridružujem se...",
+    "description": "Bodite prvi, ki izveste! Na Lumytot dajemo zadnje popravke, pametnejši in nežnejši trener spanja za malčke. Prijavite se, da boste prvi slišali, ko bo Lumytot pripravljen. Popolno za starše, ki želijo graditi boljše rutine spanja, brez napora.",
+    "disclaimer": "Brez spam-a. Samo sladke sanje.",
+    "successTitle": "Na seznamu ste! 🎉",
+    "successDesc": "Obvestili vas bomo, ko bo Lumytot na voljo. Dobrodošli v družini!",
+    "errorTitle": "Ups!",
+    "errorDesc": "Nekaj je šlo narobe. Poskusite znova."
+  },
+  "benefits": {
+    "title": "Prednosti kakovostnega spanja za vašega otroka",
+    "subtitle": "Znanstvene raziskave kažejo, da so zdrave navade spanja temeljne za celostni razvoj in dobro počutje vašega otroka.",
+    "cognitive": {
+      "title": "Kognitivni razvoj",
+      "description": "Kakovosten spanec je bistven za razvoj možganov, utrjevanje spomina in učenje pri rastočih otrocih."
+    },
+    "mood": {
+      "title": "Boljše razpoloženje in vedenje",
+      "description": "Dobro naspani otroci kažejo izboljšano čustveno regulacijo, boljše socialne veščine in povečano empatijo."
+    },
+    "immune": {
+      "title": "Močnejši imunski sistem",
+      "description": "Zadosten spanec krepi imunski sistem in pomaga otrokom v boju proti boleznim ter ostati zdravi."
+    },
+    "growth": {
+      "title": "Podpora zdravi rasti",
+      "description": "Rastni hormon se sprošča predvsem med globokim spanjem, kar naredi kakovosten počitek ključnega pomena za fizični razvoj."
+    }
+  },
+  "productShowcase": {
+    "badge": "RAZISKAVE & OBLIKOVANJE",
+    "title": "Zgrajeno za malčke.",
+    "titleAccent": "Poenostavljeno za starše.",
+    "description": "Odporno na malčke. Odobreno s strani staršev. Lumytot je narejen za radovedne ročice in kaos pred spanjem:",
+    "features": {
+      "noButtons": "Brez gumbov za pritiskanje ali lomljenje",
+      "brightness": "Nastavljiva svetlost, ki ne bo preveč stimulirala",
+      "clearCue": "En jasen svetlobni namig, ki ga malčki takoj razumejo",
+      "appControl": "Vse nadzorovano v aplikaciji — preprosto za starše"
+    },
+    "conclusion": "Lumytot združuje pametno tehnologijo spanja s preprosto, otrokom prijazno zasnovo. Hitra nastavitev in brez truda v uporabi. Z Lumy•tot postanejo rutine pred spanjem bolj mirne, jasne in lažje za vso družino."
+  },
+  "instagram": {
+    "title": "Pridružite se Lumytot skupnosti",
+    "subtitle": "Sledite nam na Instagramu za nasvete o spanju, vpoglede v starševstvo in posodobitve iz ozadja.",
+    "button": "Sledi @lumytot"
+  },
+  "testimonials": {
+    "title": "Kaj pravijo starši"
+  },
+  "footer": {
+    "description": "Pametne rešitve za spanje, zasnovane za pomoč vašim malim pri počitku, ki ga potrebujejo za zdravo rast in razvoj.",
+    "support": "Podpora",
+    "helpCenter": "Center za pomoč",
+    "sleepTips": "Nasveti za spanje",
+    "contact": "Kontaktirajte nas",
+    "warranty": "Garancija",
+    "company": "Podjetje",
+    "about": "O nas",
+    "mission": "Naša misija",
+    "privacy": "Politika zasebnosti",
+    "terms": "Pogoji uporabe",
+    "rights": "Vse pravice pridržane."
+  }
+}

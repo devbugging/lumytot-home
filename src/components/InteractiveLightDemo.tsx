@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Sun, Moon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 type Mode = 'sun' | 'moon';
 
 const InteractiveLightDemo = () => {
+  const { t } = useTranslation();
   const [activeMode, setActiveMode] = useState<Mode>('moon');
   const [hasAutoSwitched, setHasAutoSwitched] = useState(false);
 
@@ -74,19 +76,19 @@ const InteractiveLightDemo = () => {
                 {activeMode === 'sun' ? (
                   <div className="space-y-4">
                     <h3 className="text-3xl md:text-4xl font-bold text-warm-brown">
-                      Wake-up time
+                      {t('interactive.wakeup.title')}
                     </h3>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      When the sun lights up, your toddler knows it's time to start the day. The warm, gentle glow signals that morning has arrived, helping them understand when it's okay to get out of bed. This simple visual cue builds confidence and independence, teaching healthy wake-up habits without confusion.
+                      {t('interactive.wakeup.description')}
                     </p>
                   </div>
                 ) : (
                   <div className="space-y-4">
                     <h3 className="text-3xl md:text-4xl font-bold text-warm-brown">
-                      Night time to sleep
+                      {t('interactive.sleep.title')}
                     </h3>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      When the moon glows softly, it's a gentle reminder that bedtime is here. The calming light creates a peaceful atmosphere, helping your child wind down naturally. By consistently seeing the moon at night, toddlers learn to associate this visual cue with rest, making bedtime routines smoother and more predictable.
+                      {t('interactive.sleep.description')}
                     </p>
                   </div>
                 )}
@@ -94,7 +96,7 @@ const InteractiveLightDemo = () => {
 
               <div className="pt-4">
                 <p className="text-sm text-muted-foreground/70 italic">
-                  Click on the sun or moon to see how Lumytot guides your child's day
+                  {t('interactive.instruction')}
                 </p>
               </div>
             </div>
