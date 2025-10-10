@@ -34,7 +34,7 @@ const Waitlist = () => {
         console.error('Error fetching geo data:', geoError);
       }
 
-      const response = await fetch('https://api.freewaitlists.com/waitlists/cmgajbcph0004ns01rv7rey3q', {
+      const response = await fetch('https://api.freewaitlists.com/waitlists/cmgkrif7z0012qq01k4ex7b96', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
